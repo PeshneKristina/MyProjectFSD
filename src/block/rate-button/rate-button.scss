@@ -1,0 +1,8 @@
+@import "__label/rate-button__label";
+@import "__input/rate-button__input";
+
+.rate-buttons
+{
+  display: inline-flex;
+  flex-direction: row-reverse;
+}

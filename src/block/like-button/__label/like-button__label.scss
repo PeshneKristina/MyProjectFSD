@@ -1,0 +1,64 @@
+.like-button__label {
+  height: 20px;
+  width: 40px;
+  border: 1px solid rgba(31, 32, 65, 0.25) ;
+  border-radius: 10px;
+  position: relative;
+  content: "";
+  display: inline-block;
+
+
+  &::before {
+
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 9px;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(31, 32, 65, 0.25);
+
+    content: "favorite_border";
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 4px;
+
+
+  }
+
+  &::after {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(31, 32, 65, 0.25);
+
+    content: "2" ;
+    display: inline-block;
+    position: absolute;
+    left: 22px;
+    top: 4px;
+
+
+  }
+
+  .like-button__input:checked + &::after {
+    content: "3" ;
+    color: #BC9CFF;
+  }
+
+  .like-button__input:checked + &::before {
+    color: #BC9CFF;
+    content: "favorite";
+  }
+  .like-button__input:checked + &
+  {
+    border-color:#BC9CFF;
+  }
+
+}

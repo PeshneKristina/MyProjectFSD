@@ -1,0 +1,63 @@
+include block/button/button
+include block/button-border/button-border
+include block/button-arrow/button-arrow
+include block/radio-button/button-radio
+include block/checkbox/checkbox
+include block/like-button/like-button
+include block/toggle/toggle
+include block/rate-button/rate-button
+
+doctype html
+html
+    head
+        title UI KIT
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body
+        h1 UI Kit
+        .form-elements
+            .form-elements__div-buttons="Buttons"
+            .form-elements__div-button
+                +button("click me")
+            .form-elements__div-button_disabled
+                +button("click me")
+            .form-elements__div-button-border
+                +button-border("click me")
+            .form-elements__div-button-border_disabled
+                +button-border("click me")
+            .form-elements__div-button-content="click me"
+            .form-elements__div-button-content_disabled="click me"
+            .form-elements__div-button-arrow
+                +button-arrow("Перейти к оплате")
+            .form-elements__div-radio-buttons="RADIO BUTTONS"
+            .form-elements__div-radio-button-1
+                +radio-button("radio-1","Мужчина", "group1")
+            .form-elements__div-radio-button-2
+                +radio-button("radio-2","Женщина", "group1")
+            .form-elements__div-checkbox-buttons="Checkbox Buttons"
+            .form-elements__div-checkbox-button-1
+                +checkbox("checkbox-1", "Можно курить", "group2")
+            .form-elements__div-checkbox-button-2
+                +checkbox("checkbox-2", "Можно с питомцами", "group2")
+            .form-elements__div-checkbox-button-3
+                +checkbox("checkbox-3", "Можно пригласить гостей (до 10 человек)", "group2")
+            .form-elements__div-like-button="like button"
+            .form-elements__div-like-button-1
+                +like-button("like-button-1")
+            .form-elements__div-like-button-2
+                +like-button("like-button-2")
+            .form-elements__div-toggle="toggle"
+            .form-elements__div-toggle-1
+                +toggle('toggle-1', 'Получать спецпредложения')
+            .form-elements__div-toggle-2
+                +toggle('toggle-2','Получать спецпредложения')
+            .form-elements__div-rate-button="rate button"
+            .form-elements__div-rate-button-1
+                +rate-button('1','1')
+            .form-elements__div-rate-button-2
+                +rate-button('2','2')
+
+
+
+
+
+

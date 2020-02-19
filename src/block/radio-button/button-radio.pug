@@ -1,0 +1,6 @@
+mixin radio-button(input, label, group)
+    .radio-button
+        input(class="radio__input" type="radio" id=input name=group)
+        label(class="radio__label" for=input)
+            span(class="radio__span")=label
+

@@ -1,0 +1,13 @@
+.button-arrow{
+  position: relative;
+  min-width: 44px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  width: 320px;
+  height: 44px;
+  border: 0;
+  color:white;
+}
+
+@import '__span_content/button-arrow__span_content';
+@import '__span_icon/button-arrow__span_icon';

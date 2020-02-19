@@ -1,0 +1,48 @@
+.toggle__label
+{
+  position: relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+
+  &::before
+  {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+  }
+
+  &::after
+  {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: rgba(31, 32, 65, 0.25);
+  }
+
+  .toggle__input:checked + &::after
+  {
+    left: 24px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  }
+
+
+  .toggle__input:checked + &::before{
+    border-color:  #BC9CFF;
+  }
+
+
+}

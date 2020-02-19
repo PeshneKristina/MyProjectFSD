@@ -1,0 +1,21 @@
+.button-arrow {
+  &__span_icon {
+    position: absolute;
+    font-size: 24px;
+    line-height: 24px;
+    top : 25%;
+    right: 10px;
+    display: flex;
+
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+  }
+}

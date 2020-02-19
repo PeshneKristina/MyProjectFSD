@@ -1,0 +1,5 @@
+mixin checkbox(input, label, group)
+    .checkbox-button
+        input(class="checkbox__input" type="checkbox" id=input name=group)
+        label(class="checkbox__label" for=input)
+            span(class="checkbox__span")=label

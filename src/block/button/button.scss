@@ -1,0 +1,19 @@
+.button {
+  border-radius: 22px;
+  width: 99px;
+  height: 44px;
+  border: 0;
+
+  &-style {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  }
+
+}
+
