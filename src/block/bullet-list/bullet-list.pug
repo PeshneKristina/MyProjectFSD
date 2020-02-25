@@ -1,0 +1,7 @@
+mixin bullet-list(items)
+    .bullet-list
+        each item in items
+            .bullet-list__li
+                .bullet-list-item
+                    .bullet-list__before
+                span.bullet-list__content=item

@@ -1,0 +1,13 @@
+@import "__button-minus/iteration__button-minus";
+@import "__button-plus/iteration__button-plus";
+@import "__div-content/iteration__div-content";
+@import "__div-name/iteration__div-name";
+@import "__div-num/iteration__div-num";
+
+.iteration
+{
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

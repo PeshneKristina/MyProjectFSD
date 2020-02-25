@@ -11,6 +11,11 @@
 @import "./block/like-button/__label/like-button__label";
 @import "./block/toggle/toggle.scss";
 @import "block/rate-button/rate-button";
+@import "block/textfield/textfield";
+@import "block/dropdown/dropdown";
+@import "block/information/information";
+@import "block/rich-checkbox/rich-checkbox";
+@import "block/bullet-list/bullet-list.scss";
 
 body {
   background: #E5E5E5;
@@ -286,7 +291,277 @@ body {
     position: absolute;
     left: 727px;
     top: 656px;
+  }
+  &__div-textfield1-content{
+    display: inline-block;
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 141px;
+    top: 143px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041
+  }
+  &__div-content-default{
+    display: inline-block;
+    position: absolute;
+    width: 57px;
+    height: 15px;
+    left: 403.74px;
+    top: 140px;
 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: rgba(31, 32, 65, 0.5);
+  }
+
+  &__div-texfield1{
+    display: inline-block;
+    position: absolute;
+    left: 141px;
+    top: 163px;
+  }
+  &__div-textfield2-content{
+    display: inline-block;
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 141px;
+    top: 227.44px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__div-content-focus{
+    display: inline-block;
+    position: absolute;
+    min-width: 96px;
+    height: 15px;
+    left: 364px;
+    top: 227px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(31, 32, 65, 0.5);
+
+  }
+  &__div-texfield2{
+    display: inline-block;
+    position: absolute;
+    left: 141px;
+    top: 247.44px;
+  }
+  &__dropdown-content{
+    position: absolute;
+    width: 81px;
+    height: 15px;
+    left: 141px;
+    top: 311.44px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__div-content-default2{
+    position: absolute;
+    width: 57px;
+    height: 15px;
+    left: 403.74px;
+    top: 311px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(31, 32, 65, 0.5);
+
+  }
+  &__div-dropdown1{
+
+    position: absolute;
+    left: 141px;
+    top: 331.44px;
+  }
+  &__div-textfield3-content{
+    position: absolute;
+    width: 130px;
+    height: 15px;
+    left: 141px;
+    top: 398px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__div-content-default3{
+    position: absolute;
+    width: 57px;
+    height: 15px;
+    left: 403.74px;
+    top: 395px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(31, 32, 65, 0.5)
+  }
+  &__div-texfield3{
+    position: absolute;
+    left: 141px;
+    top: 418px;
+  }
+  &__dropdown-content2{
+    position: absolute;
+    width: 81px;
+    height: 15px;
+    left: 587px;
+    top: 876px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__div-dropdown2{
+    position: absolute;
+    left: 587px;
+    top: 896px;
+  }
+  &__dropdown-content3{
+    position: absolute;
+    width: 81px;
+    height: 15px;
+    left: 979px;
+    top: 876px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__div-dropdown3{
+    position: absolute;
+    left: 979px;
+    top: 896px;
+  }
+  &__information1{
+    display: inline-block;
+    position: absolute;
+    left: 198px;
+    top: 1566px;
+  }
+  &__information2{
+    display: inline-block;
+    position: absolute;
+    left: 198px;
+    top: 1655px;
+  }
+  &__div-textfield4-content{
+    position: absolute;
+    width: 170px;
+    height: 15px;
+    left: 141px;
+    top: 712px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__div-texfield4{
+    position: absolute;
+    left: 140px;
+    top: 732px;
+  }
+  &__rich-checkbox-content{
+    position: absolute;
+    width: 171px;
+    height: 15px;
+    left: 587px;
+    top: 1196px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__div-rich-checkbox1{
+    position: absolute;
+    left: 587px;
+    top: 1227px;
+  }
+  &__div-rich-checkbox2{
+    position: absolute;
+    left: 587px;
+    top: 1289px;
+  }
+  &__bullet-list-content{
+    position: absolute;
+    width: 79px;
+    height: 15px;
+    left: 979px;
+    top: 1196px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__bullet-list{
+    position: absolute;
+    left: 979px;
+    top: 1227px;
 
   }
 }

@@ -6,14 +6,18 @@ include block/checkbox/checkbox
 include block/like-button/like-button
 include block/toggle/toggle
 include block/rate-button/rate-button
+include block/textfield/textfield
+include block/dropdown/dropdown
+include block/information/information
+include block/rich-checkbox/rich-checkbox
+include block/bullet-list/bullet-list
 
 doctype html
 html
     head
         title UI KIT
-        meta(name="viewport" content="width=device-width, initial-scale=1")
     body
-        h1 UI Kit
+        h1.title UI Kit
         .form-elements
             .form-elements__div-buttons="Buttons"
             .form-elements__div-button
@@ -55,6 +59,45 @@ html
                 +rate-button('1','1')
             .form-elements__div-rate-button-2
                 +rate-button('2','2')
+            .form-elements__div-textfield1-content="Text Field"
+            .form-elements__div-content-default="default"
+            .form-elements__div-texfield1
+                +textfield("email-field","Email","email","no")
+            .form-elements__div-textfield2-content="Text Field"
+            .form-elements__div-content-focus="Hover / Focus"
+            .form-elements__div-texfield2
+                +textfield("emailsend-field","This is pretty awesome","text","no")
+
+            .form-elements__dropdown-content="dropdown"
+            .form-elements__div-content-default2="default"
+            .form-elements__div-dropdown1
+                +dropdown
+            .form-elements__div-textfield3-content="masked text field"
+            .form-elements__div-content-default3="default"
+            .form-elements__div-texfield3
+                +textfield("date-field","","date","no")
+            .form-elements__div-textfield4-content="subscription text field"
+            .form-elements__div-texfield4
+                +textfield("email-field-arrow","Email","email","yes")
+            .form-elements__dropdown-content2="dropdown"
+            .form-elements__div-dropdown2
+                +dropdown
+            .form-elements__dropdown-content3="dropdown"
+            .form-elements__div-dropdown3
+                +dropdown
+            .form-elements__information1
+                +information("insert_emoticon", "Комфорт", "Шумопоглощающие стены")
+            .form-elements__information2
+                +information("location_city","Удобство","Окно в каждой из спален")
+            .form-elements__rich-checkbox-content="rich Checkbox Buttons"
+            .form-elements__div-rich-checkbox1
+                +rich-checkbox("Широкий коридор","Ширина коридоров в номере не менее 91 см.","rich-checkbox1","group3")
+            .form-elements__div-rich-checkbox2
+                +rich-checkbox("Помощник для инвалидов","На 1 этаже вас встретит специалист и проводит до номера.","rich-checkbox2","group3")
+            .form-elements__bullet-list-content="bullet list"
+            .form-elements__bullet-list
+                +bullet-list(['Нельзя с питомцами','Без вечеринок и мероприятий','Время прибытия — после 13:00, а выезд до 12:00'])
+
 
 
 

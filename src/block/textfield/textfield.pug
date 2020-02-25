@@ -1,0 +1,12 @@
+mixin textfield(id,value,type, arrow)
+    .textfield
+        if(arrow == "yes")
+            input.textfield__input(class="textfield__input-short" type=type id=id, placeholder=value)
+            label.textfield__label(class="textfield__label" for=id)
+            span.textfield__span="arrow_forward"
+        else
+            input.textfield__input(class="textfield__input" type=type id=id, placeholder=value)
+            label.textfield__label(class="textfield__label" for=id)
+
+
+

@@ -1,0 +1,13 @@
+@import "__div-apply/dropdown_div-apply";
+@import "__div-buttons/dropdown__div-buttons";
+@import "__div-clear/dropdown__div-clear";
+@import "__div-content/dropdown__div-content";
+@import "__div-icon/dropdown__div-icon";
+@import "__div-items/dropdown__div-items";
+@import "__div-text/dropdown__div-text";
+@import "src/block/iteration/iteration.scss";
+
+.dropdown
+{
+  width: 320px;
+}

@@ -1,0 +1,7 @@
+mixin rich-checkbox(head, content, input, group)
+    .rich-checkbox
+        input(class="rich-checkbox__input" type="checkbox" id=input name=group)
+        label(class="rich-checkbox__label" for=input)
+        .rich-checkbox__div-content
+            span(class="rich-checkbox__span-head")=head
+            span(class="rich-checkbox__span-content")=content

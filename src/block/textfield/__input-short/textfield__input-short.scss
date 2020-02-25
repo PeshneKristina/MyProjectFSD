@@ -1,0 +1,23 @@
+.textfield__input-short{
+  width: 267px;
+  height: 44px;
+
+  padding-left: 15px;
+  background: #E5E5E5;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.25);
+
+  &:focus  {
+    border-color: rgba(31, 32, 65, 0.5);
+    color: rgba(31, 32, 65, 0.75);
+  }
+
+
+}
