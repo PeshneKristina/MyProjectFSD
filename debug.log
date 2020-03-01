@@ -45,3 +45,4 @@
 [0222/124333.603:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0223/232143.208:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0223/234211.513:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0229/225502.577:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)

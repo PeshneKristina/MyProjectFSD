@@ -1,34 +1,53 @@
-
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
 const webpack = require('webpack');
 let path = require('path');
+
 
 module.exports =
 {
     entry: {
         index: './src/index.js',
-        //formElements: './src/pages/form-elements/form-elements.js',
+        FormElements: './src/pages/FormElements/FormElements.js',
+        ColorType: './src/pages/Colors&Type/Colors&Type.js',
+        Cards: './src/pages/Cards/Cards.js',
     },
     output:
     {
         path: path.resolve(__dirname, 'dist'),
         filename: 'scripts/[name].js',
-        //publicPath: './dist/'
     },
     plugins: [
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        }),
         new HtmlWebpackPlugin({
             inject: true,
             chunks: ['index'],
             filename: 'index.html',
             template:'./src/index.pug',
             }),
-        /*new HtmlWebpackPlugin({
+        new HtmlWebpackPlugin({
             inject: true,
-            chunks: ['formElements'],
-            filename: 'pages/form-elements.html',
-            template:'./src/pages/form-elements/form-elements.pug',
-            })*/
+            chunks: ['FormElements'],
+            filename: 'pages/FormElements.html',
+            template:'./src/pages/FormElements/FormElements.pug',
+            }),
+        new HtmlWebpackPlugin({
+            inject: true,
+            chunks: ['ColorType'],
+            filename: 'pages/Colors&Type.html',
+            template:'./src/pages/Colors&Type/Colors&Type.pug',
+        }),
+        new HtmlWebpackPlugin({
+            inject: true,
+            chunks: ['Cards'],
+            filename: 'pages/Cards.html',
+            template:'./src/pages/Cards/Cards.pug',
+        })
         ],
+
+
     module:
     {
         rules:
@@ -48,6 +67,9 @@ module.exports =
 
                 {
                     test: /\.css$/,
+                    /*include: [
+                        path.resolve(__dirname, "not_exist_path")
+                    ],*/
                     use: [
                         'style-loader',
                         'css-loader',
@@ -84,6 +106,19 @@ module.exports =
                                 name: '[name].[ext]',
                                 outputPath: 'fonts/'
                             }
+                        },
+                    ]
+                },
+                {
+                    test: /\.(gif|png|jpe?g|svg)$/i,
+                    use: [
+                        'file-loader',
+                        {
+                            loader: 'image-webpack-loader',
+                            options: {
+                                bypassOnDebug: true, // webpack@1.x
+                                disable: true, // webpack@2.x and newer
+                            },
                         },
                     ]
                 },

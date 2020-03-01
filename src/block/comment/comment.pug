@@ -1,0 +1,10 @@
+mixin comment(name, lastSeen, content)
+    .comment
+        .comment__man
+            .comment__avatar
+            .comment__info
+                .comment__name=name
+                .comment__last-seen=lastSeen
+        .comment__content
+            +like-button("like-button-comment")
+            .comment__content-info=content

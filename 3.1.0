@@ -1,0 +1,10 @@
+
+> fibers@4.0.2 install C:\Users\akins\Documents\GitHub\MyProjectFSD\node_modules\fibers
+> node build.js || nodejs build.js
+
+`win32-x64-72` exists; testing
+Binary is fine; exiting
+j@1.0.0 C:\Users\akins\Documents\GitHub\MyProjectFSD
+`-- fibers@4.0.2 
+  `-- detect-libc@1.0.3 
+

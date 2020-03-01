@@ -1,0 +1,9 @@
+@import "__content/color__content";
+@import "__img/color__img";
+@import "__content-color/color__content-color";
+@import "__content-head/color__content-head";
+
+.color{
+  display: flex;
+  flex-direction: row;
+}

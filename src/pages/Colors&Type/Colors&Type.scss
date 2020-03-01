@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import "src/block/color/color";
+
+body {
+  background: #E5E5E5;
+}
+
+.colors-types {
+  &__div-color1{
+    position: absolute;
+    left: 150px;
+    top: 145px;
+  }
+  &__div-color2{
+    position: absolute;
+    left: 150px;
+    top: 235px;
+  }
+  &__div-color3{
+    position: absolute;
+    left: 150px;
+    top: 324.56px;
+  }
+  &__div-color4{
+    position: absolute;
+    left: 150px;
+    top: 415px;
+  }
+  &__div-color5{
+    position: absolute;
+    left: 150px;
+    top: 505px;
+  }
+  &__div-color6{
+    position: absolute;
+    left: 150px;
+    top: 595px;
+  }
+  &__div-color7{
+    position: absolute;
+    left: 150px;
+    top: 685px;
+  }
+  &__type1{
+    position: absolute;
+    width: 29px;
+    height: 30px;
+    left: 854px;
+    top: 145px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.25);
+  }
+  &__type2{
+    position: absolute;
+    width: 27px;
+    height: 24px;
+    left: 856px;
+    top: 255px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.25);
+
+  }
+  &__type3{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    left: 866px;
+    top: 353px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(31, 32, 65, 0.25);
+  }
+  &__type4{
+    position: absolute;
+    width: 37px;
+    height: 24px;
+    left: 846px;
+    top: 418px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+
+    color: rgba(31, 32, 65, 0.25);
+  }
+  .h1{
+    margin-top: 0;
+    position: absolute;
+    width: 336px;
+    height: 60px;
+    left: 913px;
+    top: 145px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1F2041;
+  }
+  .h2{
+    margin-top: 0;
+    position: absolute;
+    width: 282px;
+    height: 48px;
+    left: 913px;
+    top: 255px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    color: #1F2041;
+  }
+  .h3{
+    margin-top: 0;
+    position: absolute;
+    width: 186px;
+    height: 15px;
+    left: 913px;
+    top: 353px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #1F2041;
+  }
+  .body{
+    margin-top: 0;
+    position: absolute;
+    width: 301px;
+    height: 48px;
+    left: 913px;
+    top: 418px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+  }
+}

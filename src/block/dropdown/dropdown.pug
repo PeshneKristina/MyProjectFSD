@@ -1,16 +1,31 @@
-include .\..\iteration\iteration.pug
+//include .\..\iteration\iteration.pug
+//import 'item-quantity-dropdown';
 
-mixin dropdown()
+//mixin dropdown(items)
     .dropdown
         .dropdown__div-content
             .dropdown__div-text="Сколько гостей"
             .dropdown__div-icon="expand_more"
         .dropdown__div-items
-            +iteration("взрослые")
-            +iteration("дети")
-            +iteration("младенцы")
+            each item in items
+                +iteration(item)
             .dropdown__div-buttons
                         .dropdown__div-clear="Очистить"
                         .dropdown__div-apply="Применить"
+
+
+mixin dropdown(items)
+    .iqdropdown
+        .iqdropdown-selection
+        .iqdropdown-menu
+            .iqdropdown-menu-option( data-id="item1")
+                div
+                    .iqdropdown-item=items[0]
+            .iqdropdown-menu-option(data-id="item2")
+                div
+                    .iqdropdown-item=items[1]
+            .iqdropdown-menu-option(data-id="item3")
+                div
+                    .iqdropdown-item=items[2]
 
 

@@ -1,4 +1,5 @@
 import "./../iteration/iteration.js";
+//import 'item-quantity-dropdown'
 
 import {Iteration} from "./../iteration/iteration.js"
 //import $ from "jquery";
@@ -105,7 +106,7 @@ dropdown();
 */
 
 import $ from 'jquery';
-
+/*
 $(document).ready(function () {
     var hiddenBox = $(".dropdown__div-items");
     $(".dropdown__div-icon").on("click", function (event) {
@@ -122,6 +123,10 @@ $(document).ready(function () {
         }
     });
 
+});*/
+
+$(document).ready(() => {
+    $('.iqdropdown').iqDropdown({ });
 });
 
 
