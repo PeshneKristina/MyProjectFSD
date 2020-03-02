@@ -1,0 +1,36 @@
+include \..\..\block\textfield\textfield
+include \..\..\block\button-border\button-border
+include \..\..\block\button-arrow\button-arrow
+include \..\..\block\radio-button\button-radio
+include \..\..\block\toggle\toggle
+
+mixin registration-form()
+    .registration-form
+        .registration-form__head="Регистрация аккаунта"
+        .registration-form__name
+            +textfield("registration_form-name", "Имя", "text", "no")
+        .registration-form__surname
+            +textfield("registration_form-surname", "Фамилия", "text", "no")
+        .registration-form__div-radio-buttons
+            .registration-form__div-radio-button-1
+                +radio-button("radio-1","Мужчина", "group1")
+            .registration-form__div-radio-button-2
+                +radio-button("radio-2","Женщина", "group1")
+        .registration-form__birthday="Дата рождения"
+        .registration-form__textfield_birthday
+            +textfield("date-field","дд.мм.гггг","text/javascript", "no")
+        .registration-form__data="данные для входа в сервис"
+        .registration-form__email
+            +textfield("login_form-email", "Email", "text", "no")
+        .registration-form__password
+            +textfield("login_form-password", "Пароль", "password", "no")
+        .registration-form__toggle
+            +toggle('toggle', 'Получать спецпредложения')
+        .registration-form__enter-button
+            +button-arrow("Перейти к оплате")
+        .registration-form__create-account-div
+            .registration-form__question-enter="Уже есть аккаунт на Toxin"
+            .registration-form__registration-button
+                +button-border("Войти")
+
+

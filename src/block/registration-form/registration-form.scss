@@ -1,0 +1,33 @@
+@import "src/block/registration-form/__birthday/registration-form__birthday";
+@import "__question-enter/registration-form__question-enter";
+@import "__password/registration-form__password";
+@import "__head/registration-form__head";
+@import "__enter-button/registration-form__enter-button";
+@import "__email/registration-form__email";
+@import "__create-account-div/registration-form__create-account-div";
+@import "__name/registration-form__name";
+@import "__data/registration-form__data";
+@import "__div-radio-buttons/registration-form__div-radio-buttons";
+@import "__div-radio-button-1/registration-form__div-radio-button-1";
+@import "__div-radio-button-2/registration-form__div-radio-button-2";
+@import "__registration-button/registration-form__registration-button";
+@import "__textfield_birthday/registration-form__textfield_birthday";
+@import "__surname/registration-form__surname";
+@import "__toggle/registration-form__toggle";
+@import "src/block/textfield/textfield";
+@import "src/block/button-arrow/button-arrow";
+@import "src/block/button-border/button-border";
+@import "src/block/toggle/toggle";
+@import "src/block/radio-button/radio-button";
+
+.registration-form{
+  width: 380px;
+  height: 646px;
+
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding-left: 30px;
+}

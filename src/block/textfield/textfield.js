@@ -1,7 +1,8 @@
-//import 'inputmask'
+import 'jquery.maskedinput';
+import 'jquery.maskedinput/src/jquery.maskedinput'
 import $ from "jquery";
 
 
-/*$(document).ready(function () {
-    $("#date-field").inputmask("99.99.9999", {placeholder: "дд.мм.гггг" });
-});*/
+$(document).ready(function () {
+    $("#date-field").mask("99.99.9999");
+});

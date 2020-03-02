@@ -1,5 +1,14 @@
+include \..\..\block\login-form\login-form
+include \..\..\block\registration-form\registration-form
+
+
 doctype html
 html
     head
         title UI KIT
     body
+        .cards
+            .cards__login-form
+                +login-form()
+            .cards__registration-form
+                +registration-form()

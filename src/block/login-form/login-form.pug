@@ -1,0 +1,18 @@
+include \..\..\block\textfield\textfield
+include \..\..\block\button-border\button-border
+include \..\..\block\button-arrow\button-arrow
+
+mixin login-form()
+    .login-form
+        .login-form__head="Войти"
+        .login-form__email
+            +textfield("login_form-email", "Email", "text", "no")
+        .login-form__password
+            +textfield("login_form-password", "Пароль", "password", "no")
+        .login-form__enter-button
+            +button-arrow("Войти")
+        .login-form__create-account-div
+            .login-form__question-enter="Нет аккаунта на Toxin?"
+            .login-form__registration-button
+                +button-border("Создать")
+

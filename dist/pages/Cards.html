@@ -3,5 +3,100 @@
   <head>
     <title>UI KIT</title>
   </head>
-  <body><script type="text/javascript" src="../scripts/Cards.js"></script></body>
+  <body>
+    <div class="cards">
+      <div class="cards__login-form">
+        <div class="login-form">
+          <div class="login-form__head">Войти</div>
+          <div class="login-form__email">
+            <div class="textfield">
+              <input class="textfield__input textfield__input" type="text" id="login_form-email" placeholder="Email">
+              <label class="textfield__label" for="login_form-email"></label>
+            </div>
+          </div>
+          <div class="login-form__password">
+            <div class="textfield">
+              <input class="textfield__input textfield__input" type="password" id="login_form-password" placeholder="Пароль">
+              <label class="textfield__label" for="login_form-password"></label>
+            </div>
+          </div>
+          <div class="login-form__enter-button">
+            <button class="button-arrow"><span class="button-arrow__span_content">Войти</span><span class="button-arrow__span_icon">arrow_forward</span></button>
+          </div>
+          <div class="login-form__create-account-div">
+            <div class="login-form__question-enter">Нет аккаунта на Toxin?</div>
+            <div class="login-form__registration-button">
+              <button class="button-border button-opacity"><span class="button-border__span">Создать</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards__registration-form">
+        <div class="registration-form">
+          <div class="registration-form__head">Регистрация аккаунта</div>
+          <div class="registration-form__name">
+            <div class="textfield">
+              <input class="textfield__input textfield__input" type="text" id="registration_form-name" placeholder="Имя">
+              <label class="textfield__label" for="registration_form-name"></label>
+            </div>
+          </div>
+          <div class="registration-form__surname">
+            <div class="textfield">
+              <input class="textfield__input textfield__input" type="text" id="registration_form-surname" placeholder="Фамилия">
+              <label class="textfield__label" for="registration_form-surname"></label>
+            </div>
+          </div>
+          <div class="registration-form__div-radio-buttons">
+            <div class="registration-form__div-radio-button-1">
+              <div class="radio-button">
+                <input class="radio__input" type="radio" id="radio-1" name="group1">
+                <label class="radio__label" for="radio-1"><span class="radio__span">Мужчина</span></label>
+              </div>
+            </div>
+            <div class="registration-form__div-radio-button-2">
+              <div class="radio-button">
+                <input class="radio__input" type="radio" id="radio-2" name="group1">
+                <label class="radio__label" for="radio-2"><span class="radio__span">Женщина</span></label>
+              </div>
+            </div>
+          </div>
+          <div class="registration-form__birthday">Дата рождения</div>
+          <div class="registration-form__textfield_birthday">
+            <div class="textfield">
+              <input class="textfield__input textfield__input" type="text" id="date-field" placeholder="">
+              <label class="textfield__label" for="date-field"></label>
+            </div>
+          </div>
+          <div class="registration-form__data">данные для входа в сервис</div>
+          <div class="registration-form__email">
+            <div class="textfield">
+              <input class="textfield__input textfield__input" type="text" id="login_form-email" placeholder="Email">
+              <label class="textfield__label" for="login_form-email"></label>
+            </div>
+          </div>
+          <div class="registration-form__password">
+            <div class="textfield">
+              <input class="textfield__input textfield__input" type="password" id="login_form-password" placeholder="Пароль">
+              <label class="textfield__label" for="login_form-password"></label>
+            </div>
+          </div>
+          <div class="registration-form__toggle">
+            <div class="toggle">
+              <input class="toggle__input" type="checkbox" id="toggle">
+              <label class="toggle__label" for="toggle"><span class="toggle__span">Получать спецпредложения</span></label>
+            </div>
+          </div>
+          <div class="registration-form__enter-button">
+            <button class="button-arrow"><span class="button-arrow__span_content">Перейти к оплате</span><span class="button-arrow__span_icon">arrow_forward</span></button>
+          </div>
+          <div class="registration-form__create-account-div">
+            <div class="registration-form__question-enter">Уже есть аккаунт на Toxin</div>
+            <div class="registration-form__registration-button">
+              <button class="button-border button-opacity"><span class="button-border__span">Войти</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="../scripts/Cards.js"></script></body>
 </html>
