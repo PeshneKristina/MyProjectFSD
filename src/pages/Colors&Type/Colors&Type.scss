@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+//import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
+//import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+//import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 @import "src/block/color/color";
+@import "src/block/logo/logo";
 
 body {
   background: #FFFFFF;
@@ -163,5 +164,10 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
+  }
+  &__logo{
+    position: absolute;
+    left: 30px;
+    top: 30px;
   }
 }

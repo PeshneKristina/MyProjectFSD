@@ -1,4 +1,5 @@
 import $ from "jquery";
+import "jquery-ui";
 import 'ion-rangeslider'
 
 
@@ -12,7 +13,6 @@ class Slider {
 
     initialize() {
         this.slider = document.querySelector('.slider__range-number');
-        // this.slider.innerText = this.from + '₽ - ' + this.to + '₽';
         $(".js-range-slider").ionRangeSlider({
             type: "double",
             min: 0,

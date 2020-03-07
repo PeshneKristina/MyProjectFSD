@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 @import "src/block/login-form/login-form";
 @import "src/block/registration-form/registration-form";
+@import "src/block/logo/logo";
 
 
 body {
@@ -20,5 +21,10 @@ body {
     position: absolute;
     left: 140px;
     top: 564px;
+  }
+  &__logo{
+    position: absolute;
+    left: 30px;
+    top: 30px;
   }
 }

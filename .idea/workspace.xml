@@ -2,55 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8b3c87-aafe-42df-a873-65955f7dc491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/npm-debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/login-form/__create-account-div/login-form__create-account-div.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/login-form/__email/login-form__email.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/login-form/__enter-button/login-form__enter-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/login-form/__head/login-form__head.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/login-form/__password/login-form__password.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/login-form/__question-enter/login-form__question-enter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/login-form/login-form.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/login-form/login-form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/login-form/registration-button/login-form__registration-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__birthday/registration-form__birthday.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__create-account-div/registration-form__create-account-div.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__data/registration-form__data.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__div-radio-button-1/registration-form__div-radio-button-1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__div-radio-button-2/registration-form__div-radio-button-2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__div-radio-buttons/registration-form__div-radio-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__email/registration-form__email.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__enter-button/registration-form__enter-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__head/registration-form__head.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__name/registration-form__name.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__password/registration-form__password.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__question-enter/registration-form__question-enter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__registration-button/registration-form__registration-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__surname/registration-form__surname.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__textfield_birthday/registration-form__textfield_birthday.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/__toggle/registration-form__toggle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/registration-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/registration-form.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/registration-form/registration-form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/Headers&amp;Footers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/comment/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/logo/logo.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/logo/logo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/Cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/Cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/Colors&amp;Type.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/Colors&amp;Type.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/FormElements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/FormElements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/Cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/ColorType.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/ColorType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/FormElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/FormElements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/Cards.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/ColorType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/FormElements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ion-rangeslider/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ion-rangeslider/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-debug.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/button-border/__span/button-border__span.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/button-border/__span/button-border__span.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/comment/__avatar/comment__avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/comment/__avatar/comment__avatar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/comment/comment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/comment/comment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/range-slider/range-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/range-slider/range-slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/block/range-slider/range-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/range-slider/range-slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/textfield/__input-short/textfield__input-short.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/textfield/__input-short/textfield__input-short.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/textfield/__input/textfield__input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/textfield/__input/textfield__input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/textfield/textfield.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/textfield/textfield.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/textfield/textfield.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/textfield/textfield.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/range-slider/scss/ion.rangeSlider.min.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/range-slider/scss/ion.rangeSlider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cards/Cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Cards/Cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cards/Cards.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Cards/Cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cards/Cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Colors&amp;Type/Colors&amp;Type.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Colors&amp;Type/Colors&amp;Type.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Colors&amp;Type/Colors&amp;Type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Colors&amp;Type/Colors&amp;Type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/FormElements/FormElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FormElements/FormElements.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/FormElements/FormElements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FormElements/FormElements.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/FormElements/FormElements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FormElements/FormElements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/block/logo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,14 +75,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\registration-form\__div-radio-buttons" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\comment" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\images" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\pages\FormElements" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\comment\__avatar" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD" />
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\dist" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\logo" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\comment" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src" />
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\comment\img" />
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\range-slider\scss" />
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\range-slider" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,6 +121,13 @@
       <workItem from="1583003501416" duration="1412000" />
       <workItem from="1583005091787" duration="14432000" />
       <workItem from="1583139140737" duration="9658000" />
+      <workItem from="1583170737370" duration="1771000" />
+      <workItem from="1583234088640" duration="11115000" />
+      <workItem from="1583256669033" duration="8726000" />
+      <workItem from="1583313886781" duration="4623000" />
+      <workItem from="1583577872301" duration="2423000" />
+      <workItem from="1583581317280" duration="4583000" />
+      <workItem from="1583611509668" duration="2007000" />
     </task>
     <servers />
   </component>
@@ -138,26 +142,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583160167372" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582800723169">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583582128924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582800723169" />
-    <state width="1515" height="266" key="GridCell.Tab.0.bottom" timestamp="1583165617682">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583582128924" />
+    <state width="1515" height="425" key="GridCell.Tab.0.bottom" timestamp="1583612893867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583165617682" />
-    <state width="1515" height="266" key="GridCell.Tab.0.center" timestamp="1583165617682">
+    <state width="1515" height="425" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583612893867" />
+    <state width="1515" height="425" key="GridCell.Tab.0.center" timestamp="1583612893867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583165617682" />
-    <state width="1515" height="266" key="GridCell.Tab.0.left" timestamp="1583165617682">
+    <state width="1515" height="425" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583612893867" />
+    <state width="1515" height="425" key="GridCell.Tab.0.left" timestamp="1583612893867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583165617682" />
-    <state width="1515" height="266" key="GridCell.Tab.0.right" timestamp="1583165617682">
+    <state width="1515" height="425" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583612893867" />
+    <state width="1515" height="425" key="GridCell.Tab.0.right" timestamp="1583612893867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583165617682" />
+    <state width="1515" height="425" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583612893867" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1582809385674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
