@@ -26,6 +26,10 @@
 
 body {
   background: #FFFFFF;
+  position: relative;
+  width: 1440px;
+  height: 1853px;
+
 }
 
 .form-elements {
@@ -694,5 +698,45 @@ body {
     position: absolute;
     left: 30px;
     top: 30px;
+  }
+  &__date-dropdown-content1{
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 141px;
+    top: 502px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__date-dropdown1{
+    position: absolute;
+    left: 141px;
+    top: 522.44px;
+
+  }
+  &__date-dropdown-content2{
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 311px;
+    top: 502px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__date-dropdown2{
+    position: absolute;
+    left: 311px;
+    top: 522.44px;
   }
 }

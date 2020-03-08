@@ -1,5 +1,3 @@
-mixin date-dropdown()
-    .date-dropdown
-        input(type="hidden" id="example5")
-        pre(class="code-wrapper")
-
+mixin date-dropdown(id)
+    input( class="date-dropdown__input date-dropdown__input_"+id data-toggle="datepicker_"+id id="date-field1_"+id type="text" placeholder="ДД.ММ.ГГГГ",)
+    span(class = " date-dropdown__span-icons date-dropdown__span-icons_"+id)="keyboard_arrow_down"

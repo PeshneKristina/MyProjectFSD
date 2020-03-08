@@ -1,5 +1,6 @@
 import "./../iteration/iteration.js";
-//import 'item-quantity-dropdown'
+import "item-quantity-dropdown/lib/item-quantity-dropdown.min"
+//import "item-quantity-dropdown"
 
 import {Iteration} from "./../iteration/iteration.js"
 //import $ from "jquery";

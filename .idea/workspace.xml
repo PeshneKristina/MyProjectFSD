@@ -2,48 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8b3c87-aafe-42df-a873-65955f7dc491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pages/Headers&amp;Footers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/comment/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/logo/logo.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/logo/logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/date-dropdown/__input/date-dropdown__input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/date-dropdown/__span-icons/date-dropdown__span-icons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/Cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/Cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/Colors&amp;Type.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/Colors&amp;Type.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/FormElements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/FormElements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/Cards.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/ColorType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/FormElements.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ion-rangeslider/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ion-rangeslider/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-debug.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/comment/__avatar/comment__avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/comment/__avatar/comment__avatar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/comment/comment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/comment/comment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/checkbox-list/checkbox-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/checkbox-list/checkbox-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/checkbox-list/checkbox-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/checkbox-list/checkbox-list.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/checkbox-list/checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/checkbox-list/checkbox-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/date-dropdown/date-dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/dropdown/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/dropdown/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/dropdown/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/dropdown/dropdown.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/block/range-slider/range-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/range-slider/range-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/range-slider/range-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/range-slider/range-slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/range-slider/scss/ion.rangeSlider.min.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/range-slider/scss/ion.rangeSlider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/Cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cards/Cards.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/textfield/textfield.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/textfield/textfield.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Cards/Cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cards/Cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Colors&amp;Type/Colors&amp;Type.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Colors&amp;Type/Colors&amp;Type.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Colors&amp;Type/Colors&amp;Type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Colors&amp;Type/Colors&amp;Type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FormElements/FormElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FormElements/FormElements.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/FormElements/FormElements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FormElements/FormElements.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/FormElements/FormElements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FormElements/FormElements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/block/logo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/block/date-dropdown" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,11 +59,11 @@
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\comment\__avatar" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\date-dropdown" />
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\logo" />
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\comment" />
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src" />
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\comment\img" />
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD" />
     </key>
   </component>
   <component name="RunManager">
@@ -127,7 +104,7 @@
       <workItem from="1583313886781" duration="4623000" />
       <workItem from="1583577872301" duration="2423000" />
       <workItem from="1583581317280" duration="4583000" />
-      <workItem from="1583611509668" duration="2007000" />
+      <workItem from="1583611509668" duration="11418000" />
     </task>
     <servers />
   </component>
@@ -146,22 +123,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583582128924" />
-    <state width="1515" height="425" key="GridCell.Tab.0.bottom" timestamp="1583612893867">
+    <state width="1515" height="321" key="GridCell.Tab.0.bottom" timestamp="1583676288809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="425" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583612893867" />
-    <state width="1515" height="425" key="GridCell.Tab.0.center" timestamp="1583612893867">
+    <state width="1515" height="321" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583676288809" />
+    <state width="1515" height="321" key="GridCell.Tab.0.center" timestamp="1583676288809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="425" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583612893867" />
-    <state width="1515" height="425" key="GridCell.Tab.0.left" timestamp="1583612893867">
+    <state width="1515" height="321" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583676288809" />
+    <state width="1515" height="321" key="GridCell.Tab.0.left" timestamp="1583676288809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="425" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583612893867" />
-    <state width="1515" height="425" key="GridCell.Tab.0.right" timestamp="1583612893867">
+    <state width="1515" height="321" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583676288809" />
+    <state width="1515" height="321" key="GridCell.Tab.0.right" timestamp="1583676288809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="425" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583612893867" />
+    <state width="1515" height="321" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583676288809" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1582809385674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

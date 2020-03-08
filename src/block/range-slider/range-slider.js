@@ -1,7 +1,4 @@
-import $ from "jquery";
-import "jquery-ui";
-import 'ion-rangeslider'
-
+import 'ion-rangeslider';
 
 class Slider {
     constructor() {
@@ -13,7 +10,7 @@ class Slider {
 
     initialize() {
         this.slider = document.querySelector('.slider__range-number');
-        $(".js-range-slider").ionRangeSlider({
+        jQuery(".js-range-slider").ionRangeSlider({
             type: "double",
             min: 0,
             max: 16000,
@@ -21,14 +18,13 @@ class Slider {
             to: this.to,
             hide_min_max: true,
             hide_from_to: true,
-            onChange: this.Gena.bind(this),
-            onStart: this.Gena.bind(this)
+            onChange: this._price.bind(this),
+            onStart: this._price.bind(this)
         });
     }
 
-    Gena(data) {
+    _price(data) {
         this.slider.innerText = data.from_pretty + '₽ - ' + data.to_pretty + '₽';
-
     }
 }
 

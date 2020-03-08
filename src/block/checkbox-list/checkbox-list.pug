@@ -1,11 +1,11 @@
 include .\..\checkbox\checkbox.pug
 
-mixin checkbox-list(items)
+mixin checkbox-list(items,id)
     .checkbox-list
         .checkbox-list__div-head
             span.checkbox-list__span-text="Expandable checkbox list"
-            span.checkbox-list__span-icons="keyboard_arrow_down"
-        .checkbox-list__div-list
+            span(class="checkbox-list__span-icons checkbox-list__span-icons_"+id)="keyboard_arrow_down"
+        .checkbox-list__div-list(class="checkbox-list__div-list_"+id)
             - for (let i = 0; i < items.length; i++)
                 +checkbox(i,items[i],'list-group')
 
