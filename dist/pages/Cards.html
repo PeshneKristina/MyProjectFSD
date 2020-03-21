@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<!--include \..\..\block\calendar\calendar--><!DOCTYPE html>
 <html>
   <head>
     <title>UI KIT</title>
@@ -99,6 +100,216 @@
       </div>
       <div class="cards__logo">
         <div class="logo"></div>
+      </div>
+      <div class="cards__search-form">
+        <div class="search-form">
+          <div class="search-form__head">Найдём номера под ваши пожелания</div>
+          <div class="search-form__date-dropdowns">
+            <div class="search-form__arrival">
+              <div class="search-form__arrival-content">Прибытие</div>
+              <div class="search-form__date-dropdown-arrival">
+                <div class="date-dropdown">
+                  <input class="date-dropdown__input date-dropdown__input_dd1" data-toggle="datepicker_dd1" id="date-field1_dd1" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons date-dropdown__span-icons_dd1">keyboard_arrow_down</span>
+                </div>
+              </div>
+            </div>
+            <div class="search-form__departure">
+              <div class="search-form__departure-content">Выезд</div>
+              <div class="search-form__date-dropdown-departure">
+                <div class="date-dropdown">
+                  <input class="date-dropdown__input date-dropdown__input_dd2" data-toggle="datepicker_dd2" id="date-field1_dd2" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons date-dropdown__span-icons_dd2">keyboard_arrow_down</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search-form__guests">Гости</div>
+          <div class="search-form__dropdown-guests">
+            <div class="default">
+              <div class="iqdropdown">
+                <p class="iqdropdown-selection" data-seletion-text="item" data-text-plural="items"></p>
+                <div class="iqdropdown-menu">
+                  <div class="iqdropdown-menu-option" data-id="item1">
+                    <div>
+                      <div class="iqdropdown-item">взрослые</div>
+                    </div>
+                  </div>
+                  <div class="iqdropdown-menu-option" data-id="item2">
+                    <div>
+                      <div class="iqdropdown-item">дети</div>
+                    </div>
+                  </div>
+                  <div class="iqdropdown-menu-option" data-id="item3">
+                    <div>
+                      <div class="iqdropdown-item">младенцы</div>
+                    </div>
+                  </div>
+                  <div class="iqdropdown-menu-buttons">
+                    <div class="iqdropdown-clear">Очистить</div>
+                    <div class="iqdropdown-apply">Применить</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search-form__button-arrow-search">
+            <button class="button-arrow"><span class="button-arrow__span_content">подобрать номер</span><span class="button-arrow__span_icon">arrow_forward</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="cards__form-reservation">
+        <div class="form-reservation">
+          <div class="form-reservation__head">
+            <div class="form-reservation__head-number-sign">№ </div>
+            <div class="form-reservation__head-number">888</div>
+            <div class="form-reservation__head-room">люкс</div>
+            <div class="form-reservation__head-price">9 990₽ в сутки</div>
+          </div>
+          <div class="form-reservation__date-dropdowns">
+            <div class="form-reservation__arrival">
+              <div class="form-reservation__arrival-content">Прибытие</div>
+              <div class="form-reservation__date-dropdown-arrival">
+                <div class="date-dropdown">
+                  <input class="date-dropdown__input date-dropdown__input_dd3" data-toggle="datepicker_dd3" id="date-field1_dd3" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons date-dropdown__span-icons_dd3">keyboard_arrow_down</span>
+                </div>
+              </div>
+            </div>
+            <div class="form-reservation__departure">
+              <div class="form-reservation__departure-content">Выезд</div>
+              <div class="form-reservation__date-dropdown-departure">
+                <div class="date-dropdown">
+                  <input class="date-dropdown__input date-dropdown__input_dd4" data-toggle="datepicker_dd4" id="date-field1_dd4" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons date-dropdown__span-icons_dd4">keyboard_arrow_down</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-reservation__guests">Гости</div>
+          <div class="form-reservation__dropdown-guests">
+            <div class="default">
+              <div class="iqdropdown">
+                <p class="iqdropdown-selection" data-seletion-text="item" data-text-plural="items"></p>
+                <div class="iqdropdown-menu">
+                  <div class="iqdropdown-menu-option" data-id="item1">
+                    <div>
+                      <div class="iqdropdown-item">взрослые</div>
+                    </div>
+                  </div>
+                  <div class="iqdropdown-menu-option" data-id="item2">
+                    <div>
+                      <div class="iqdropdown-item">дети</div>
+                    </div>
+                  </div>
+                  <div class="iqdropdown-menu-option" data-id="item3">
+                    <div>
+                      <div class="iqdropdown-item">младенцы</div>
+                    </div>
+                  </div>
+                  <div class="iqdropdown-menu-buttons">
+                    <div class="iqdropdown-clear">Очистить</div>
+                    <div class="iqdropdown-apply">Применить</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-reservation__information">
+            <div class="form-reservation__information-room">
+              <div class="form-reservation__information-room-content form-reservation__information-content">9 990₽ х 4 суток</div>
+              <div class="form-reservation__information-room-price form-reservation__information-price">39960₽</div>
+            </div>
+            <div class="form-reservation__information-services">
+              <div class="form-reservation__information-services-content form-reservation__information-content">Сбор за услуги: скидка 2 179₽</div>
+              <div class="form-reservation__information-services-price form-reservation__information-price">0₽</div>
+            </div>
+            <div class="form-reservation__information-additional-services">
+              <div class="form-reservation__information-additional-services-content form-reservation__information-content">Сбор за дополнительные услуги</div>
+              <div class="form-reservation__information-additional-services-price form-reservation__information-price">300₽</div>
+            </div>
+          </div>
+          <div class="form-reservation__in-total">
+            <div class="form-reservation__in-total-content">Итого</div>
+            <hr class="form-reservation__in-total-hr">
+            <div class="form-reservation__in-total-price">38 081₽</div>
+          </div>
+          <div class="form-reservation__button-arrow-search">
+            <button class="button-arrow"><span class="button-arrow__span_content">Забронировать</span><span class="button-arrow__span_icon">arrow_forward</span></button>
+          </div>
+        </div>
+      </div>
+      <!--.cards__calendar+calendar()
+      -->
+      <div class="cards__room-selection-form1">
+        <div class="room-selection-form">
+          <div class="room-selection-form-carousel">
+            <div class="owl-carousel" id="js-carousel-1"><img class="carousel-item" src="room1.png"><img class="carousel-item" src="room1.png"><img class="carousel-item" src="room1.png"></div>
+          </div>
+          <div class="room-selection-form-content">
+            <div class="room-selection-form__information">
+              <div class="room-information">
+                <div class="room-information-number-sign">№ </div>
+                <div class="room-information-number">888</div>
+                <div class="room-information-room">люкс</div>
+                <div class="room-information-price-number">9 900₽</div>
+                <div class="room-information-interval">в сутки</div>
+              </div>
+            </div>
+            <hr class="room-selection-form__hr">
+            <div class="room-selection-form__assessment">
+              <div class="room-selection-form__assessment-rate-button">
+                <div class="rate-buttons">
+                  <input class="rate-button__input" name="ratingname3" value="5" id="rating_5id3" type="radio">
+                  <label class="rate-button__label" for="rating_5id3"></label>
+                  <input class="rate-button__input" name="ratingname3" value="4" id="rating_4id3" type="radio">
+                  <label class="rate-button__label" for="rating_4id3"></label>
+                  <input class="rate-button__input" name="ratingname3" value="3" id="rating_3id3" type="radio">
+                  <label class="rate-button__label" for="rating_3id3"></label>
+                  <input class="rate-button__input" name="ratingname3" value="2" id="rating_2id3" type="radio">
+                  <label class="rate-button__label" for="rating_2id3"></label>
+                  <input class="rate-button__input" name="ratingname3" value="1" id="rating_1id3" type="radio">
+                  <label class="rate-button__label" for="rating_1id3"></label>
+                </div>
+              </div>
+              <div class="room-selection-form__assessment-reviews-number">65</div>
+              <div class="room-selection-form__assessment-reviews">Отзывов</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards__room-selection-form2">
+        <div class="room-selection-form">
+          <div class="room-selection-form-carousel">
+            <div class="owl-carousel" id="js-carousel-1"><img class="carousel-item" src="room2.png"><img class="carousel-item" src="room2.png"><img class="carousel-item" src="room2.png"></div>
+          </div>
+          <div class="room-selection-form-content">
+            <div class="room-selection-form__information">
+              <div class="room-information">
+                <div class="room-information-number-sign">№ </div>
+                <div class="room-information-number">840</div>
+                <div class="room-information-room"></div>
+                <div class="room-information-price-number">9 900₽</div>
+                <div class="room-information-interval">в сутки</div>
+              </div>
+            </div>
+            <hr class="room-selection-form__hr">
+            <div class="room-selection-form__assessment">
+              <div class="room-selection-form__assessment-rate-button">
+                <div class="rate-buttons">
+                  <input class="rate-button__input" name="ratingname4" value="5" id="rating_5id4" type="radio">
+                  <label class="rate-button__label" for="rating_5id4"></label>
+                  <input class="rate-button__input" name="ratingname4" value="4" id="rating_4id4" type="radio">
+                  <label class="rate-button__label" for="rating_4id4"></label>
+                  <input class="rate-button__input" name="ratingname4" value="3" id="rating_3id4" type="radio">
+                  <label class="rate-button__label" for="rating_3id4"></label>
+                  <input class="rate-button__input" name="ratingname4" value="2" id="rating_2id4" type="radio">
+                  <label class="rate-button__label" for="rating_2id4"></label>
+                  <input class="rate-button__input" name="ratingname4" value="1" id="rating_1id4" type="radio">
+                  <label class="rate-button__label" for="rating_1id4"></label>
+                </div>
+              </div>
+              <div class="room-selection-form__assessment-reviews-number">65</div>
+              <div class="room-selection-form__assessment-reviews">Отзывов</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   <script type="text/javascript" src="../scripts/Cards.js"></script></body>

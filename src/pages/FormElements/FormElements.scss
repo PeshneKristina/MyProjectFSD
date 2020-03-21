@@ -1,4 +1,4 @@
-//@import '~font-awesome/css/font-awesome.css';
+@import '~font-awesome/css/font-awesome.css';
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
@@ -21,7 +21,8 @@
 @import "src/block/comment/comment";
 @import "src/block/date-dropdown/date-dropdown";
 @import "src/block/logo/logo";
-
+@import "src/block/pagination/pagination";
+@import "../../block/carousel/carousel";
 
 
 body {
@@ -739,4 +740,26 @@ body {
     left: 311px;
     top: 522.44px;
   }
+  &__pagination-content{
+    position: absolute;
+    width: 81px;
+    height: 15px;
+    left: 980px;
+    top: 540px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+  }
+  &__pagination{
+    position: absolute;
+    left: 980px;
+    top: 571.44px;
+  }
+
+
 }

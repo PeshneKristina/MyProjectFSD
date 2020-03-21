@@ -1,0 +1,16 @@
+include \..\..\block\rate-button\rate-button
+include \..\..\block\carousel\carousel
+
+mixin room-selection-form(number, luxe,price,reviews, id, name)
+    .room-selection-form
+        .room-selection-form-carousel
+            +carousel()
+        .room-selection-form-content
+            .room-selection-form__information
+                +room-information(number, luxe, price)
+            hr.room-selection-form__hr
+            .room-selection-form__assessment
+                .room-selection-form__assessment-rate-button
+                    +rate-button(id ,name)
+                .room-selection-form__assessment-reviews-number=reviews
+                .room-selection-form__assessment-reviews="Отзывов"

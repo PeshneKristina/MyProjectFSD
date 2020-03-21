@@ -1,0 +1,32 @@
+@import "src/block/social-network-icons/social-network-icons";
+@import "src/block/full-logo/full-logo";
+
+.footer2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 367px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+
+}
+
+.footer2__content{
+  width: 560px;
+  height: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.75);
+}
+.footer2__logo{
+  margin-bottom: 20px;
+}
+.footer2__icons{
+  margin-top: 25px;
+}

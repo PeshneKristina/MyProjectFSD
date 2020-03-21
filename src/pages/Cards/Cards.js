@@ -1,2 +1,7 @@
 import "./Cards.scss"
 import "../../block/registration-form/registration-form"
+import "../../block/search-form/search-form"
+import "../../block/form-reservation/form-reservation"
+//import "../../block/calendar/calendar"
+import "../../block/room-selection-form/room-selection-form"
+import "../../block/carousel/carousel"

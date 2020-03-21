@@ -1,4 +1,5 @@
 import 'ion-rangeslider';
+import $ from "jquery";
 
 class Slider {
     constructor() {
@@ -28,4 +29,6 @@ class Slider {
     }
 }
 
-let l = new Slider();
+$(document).ready(function () {
+    let l = new Slider();
+});

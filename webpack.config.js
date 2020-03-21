@@ -12,17 +12,20 @@ module.exports =
             FormElements: './src/pages/FormElements/FormElements.js',
             ColorType: './src/pages/Colors&Type/Colors&Type.js',
             Cards: './src/pages/Cards/Cards.js',
-            HeadersFooters:'./src/pages/Headers&Footers/Headers&Footers.js',
+            HeadersFooters: './src/pages/Headers&Footers/Headers&Footers.js',
         },
         output:
             {
                 path: path.resolve(__dirname, 'dist'),
                 filename: 'scripts/[name].js',
             },
+
+
         plugins: [
             new webpack.ProvidePlugin({
                 $: 'jquery',
-                jQuery: 'jquery'
+                jQuery: 'jquery',
+                'window.jQuery': 'jquery'
             }),
             new HtmlWebpackPlugin({
                 inject: true,
@@ -54,9 +57,6 @@ module.exports =
                 filename: 'pages/Headers&Footers.html',
                 template: './src/pages/Headers&Footers/Headers&Footers.pug',
             }),
-            new CopyPlugin([
-                { from: 'src/img/favicon.ico', to: ''}
-            ]),
         ],
 
 
@@ -93,10 +93,10 @@ module.exports =
                             test: /\.s[ac]ss$/,
                             use: [
                                 // Creates `style` nodes from JS strings
-                                { loader: 'style-loader' },
+                                {loader: 'style-loader'},
                                 // Translates CSS into CommonJS
-                                { loader: 'css-loader' },
-                                { loader: 'resolve-url-loader' },
+                                {loader: 'css-loader'},
+                                {loader: 'resolve-url-loader'},
                                 {
                                     // Compiles Sass to CSS
                                     loader: 'sass-loader',
@@ -151,18 +151,9 @@ module.exports =
                                     pretty: true
                                 }
                         },
-                        {
-                            test: /\.(jpeg|jpg|png)$/,
-                            loader: 'file-loader',
-                            options: {
-                                name: '[name].[ext]',
-                                outputPath: 'img',
-                                publicPath: "./../img"
-                            }
-                        },
 
                         {
-                            test: /\.(ttf|woff|woff2|eot)$/,
+                            test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
                             loader: 'file-loader',
                             options: {
                                 name: '[name].[ext]',
@@ -172,6 +163,20 @@ module.exports =
                         },
 
                         {
+                            test: /\.(jpeg|jpg|png|svg)$/,
+                            loader: 'file-loader',
+                            exclude: [
+                                path.resolve(__dirname, "./../fonts/")
+                            ],
+                            options: {
+                                name: '[name].[ext]',
+                                outputPath: 'img',
+                                publicPath: "./../img"
+                            }
+                        },
+
+
+                        /*{
                             test: /\.svg$/,
                             loader: 'file-loader',
                             options: {
@@ -179,19 +184,19 @@ module.exports =
                                 outputPath: 'img',
                                 publicPath: "./../img"
                             }
-                        },
-                       /* {
-                            test: /\.(woff(2)?|ttf|svg|eot)(\?v=\d+\.\d+\.\d+)?$/,
-                            use: [
-                                {
-                                    loader: 'file-loader',
-                                    options: {
-                                        name: '[name].[ext]',
-                                        outputPath: 'fonts/'
-                                    }
-                                },
-                            ]
                         },*/
+                        /* {
+                             test: /\.(woff(2)?|ttf|svg|eot)(\?v=\d+\.\d+\.\d+)?$/,
+                             use: [
+                                 {
+                                     loader: 'file-loader',
+                                     options: {
+                                         name: '[name].[ext]',
+                                         outputPath: 'fonts/'
+                                     }
+                                 },
+                             ]
+                         },*/
                         /*{
                             test: /\.(gif|png|jpe?g|svg)$/i,
                             use: [

@@ -1,0 +1,22 @@
+include \..\..\block\button-arrow\button-arrow
+include \..\..\block\dropdown\dropdown
+include \..\..\block\date-dropdown\date-dropdown
+
+mixin search-form()
+    .search-form
+        .search-form__head="Найдём номера под ваши пожелания"
+        .search-form__date-dropdowns
+            .search-form__arrival
+                .search-form__arrival-content="Прибытие"
+                .search-form__date-dropdown-arrival
+                    +date-dropdown("dd1")
+            .search-form__departure
+                .search-form__departure-content="Выезд"
+                .search-form__date-dropdown-departure
+                    +date-dropdown("dd2")
+        .search-form__guests="Гости"
+        .search-form__dropdown-guests
+            +dropdown(['взрослые', 'дети', 'младенцы'])
+        .search-form__button-arrow-search
+            +button-arrow("подобрать номер")
+

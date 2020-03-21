@@ -1,0 +1,54 @@
+@import "src/block/rate-button/rate-button";
+@import "src/block/room-information/room-information";
+@import "src/block/carousel/carousel";
+
+.room-selection-form {
+  width: 270px;
+  height: 257px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 4px;
+}
+
+.room-selection-form-content {
+  margin: 0 16px 19px 20px;
+}
+
+.room-selection-form__hr {
+  width: 230px;
+  height: 1px;
+
+  background: rgba(31, 32, 65, 0.1);
+}
+
+.room-selection-form__assessment {
+  display: flex;
+  flex-direction: row;
+}
+
+.room-selection-form__assessment-reviews-number {
+  flex: 1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: right;
+
+  color: rgba(31, 32, 65, 0.5);
+
+}
+
+.room-selection-form__assessment-reviews {
+  margin-left: 3px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+

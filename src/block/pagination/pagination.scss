@@ -1,0 +1,95 @@
+@import "~paginationjs/dist/pagination.css";
+
+.paginationjs {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+
+
+}
+
+.paginationjs .paginationjs-pages li {
+  border: none;
+
+}
+
+.paginationjs .paginationjs-pages li > a {
+  min-width: 40px;
+  height: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  color: rgba(31, 32, 65, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+
+
+
+}
+.paginationjs .paginationjs-pages li > a:hover {
+  background: none;
+  /*background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;*/
+}
+.paginationjs .paginationjs-pages li.active > a {
+  font-weight: bold;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  height: 40px;
+  line-height: 40px;
+
+
+}
+
+.paginationjs .paginationjs-pages li.paginationjs-next {
+  border: 0;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+  border-radius: 22px;
+  width: 40px;
+  height: 40px;
+}
+.paginationjs .paginationjs-pages li:last-child {
+  border: 0;
+}
+
+.paginationjs .paginationjs-pages li:last-child>a {
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+  border-radius: 22px;
+  width: 40px;
+  height: 40px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+.paginationjs .paginationjs-pages li.disabled>a {
+  opacity: 1;
+}
+.pagination__variant-content{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  margin-top: 10px;
+  text-align: center;
+}
+.pagination{
+  width: 241px;
+  height: 106px;
+}

@@ -1,0 +1,15 @@
+include \..\..\block\full-logo\full-logo
+include \..\..\block\header-panel\header-panel
+include \..\..\block\button-border\button-border
+include \..\..\block\button\button
+
+mixin header1()
+    .header1
+        .header1__logo
+            +full-logo()
+        .header1__panel
+            +header-panel(['Home','About Us','Services', 'Careers','News', 'Documentation'])
+        .header1__login
+            +button-border("login")
+        .header1__register
+            +button("register")

@@ -1,0 +1,13 @@
+include \..\..\block\full-logo\full-logo
+include \..\..\block\header-panel\header-panel
+include \..\..\block\button-border\button-border
+include \..\..\block\button\button
+
+mixin header2()
+    .header2
+        .header2__logo
+            +full-logo()
+        .header2__panel
+            +header-panel(['Home','About Us','Services', 'Careers','News', 'Documentation'])
+        hr.header2__hr
+        .header2__content="Cosmin Negoita"

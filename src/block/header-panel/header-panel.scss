@@ -1,0 +1,38 @@
+@import "src/block/checkbox-list/checkbox-list";
+
+.header-panel__span{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(31, 32, 65, 0.5);
+  margin-right: 30px;
+
+}
+.header-panel__span0{
+  font-weight: bold;
+
+  color: rgba(31, 32, 65, 0.75);
+}
+.header-panel__span2{
+  position: relative;
+  .checkbox-list{
+
+    display: flex;
+    flex-direction: row;
+  }
+  .checkbox-list__span-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+    text-transform: none;
+  }
+  .checkbox-list__span-icons{
+    margin-left: 0;
+  }
+}

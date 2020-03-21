@@ -1,0 +1,9 @@
+include \..\..\block\title\title
+include \..\..\block\logo\color-logo
+
+mixin full-logo()
+    .full-logo
+        .full-logo__image
+            +color-logo()
+        .full-logo__title
+            +title()

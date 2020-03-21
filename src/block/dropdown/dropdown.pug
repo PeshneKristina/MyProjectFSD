@@ -1,31 +1,39 @@
-//include .\..\iteration\iteration.pug
-//import 'item-quantity-dropdown';
 
-//mixin dropdown(items)
-    .dropdown
-        .dropdown__div-content
-            .dropdown__div-text="Сколько гостей"
-            .dropdown__div-icon="expand_more"
-        .dropdown__div-items
-            each item in items
-                +iteration(item)
-            .dropdown__div-buttons
-                        .dropdown__div-clear="Очистить"
-                        .dropdown__div-apply="Применить"
+mixin dropdown(items, number)
+    if (number == "2")
+        .iqdropdown2
+            .iqdropdown
+                p(class="iqdropdown-selection iqdropdown-selection2 " data-seletion-text="item" data-text-plural="items")
+                .iqdropdown-menu
+                    .iqdropdown-menu-option( data-id="item1")
+                        div
+                            .iqdropdown-item=items[0]
+                    .iqdropdown-menu-option(data-id="item2")
+                        div
+                            .iqdropdown-item=items[1]
+                    .iqdropdown-menu-option(data-id="item3")
+                        div
+                            .iqdropdown-item=items[2]
+                    .iqdropdown-menu-buttons
+                        .iqdropdown-clear="Очистить"
+                        .iqdropdown-apply="Применить"
+    else
+        .default
+            .iqdropdown
+                p(class="iqdropdown-selection" data-seletion-text="item" data-text-plural="items")
+                .iqdropdown-menu
+                    .iqdropdown-menu-option( data-id="item1")
+                        div
+                            .iqdropdown-item=items[0]
+                    .iqdropdown-menu-option(data-id="item2")
+                        div
+                            .iqdropdown-item=items[1]
+                    .iqdropdown-menu-option(data-id="item3")
+                        div
+                            .iqdropdown-item=items[2]
+                    .iqdropdown-menu-buttons
+                        .iqdropdown-clear="Очистить"
+                        .iqdropdown-apply="Применить"
 
-
-mixin dropdown(items)
-    .iqdropdown
-        .iqdropdown-selection
-        .iqdropdown-menu
-            .iqdropdown-menu-option( data-id="item1")
-                div
-                    .iqdropdown-item=items[0]
-            .iqdropdown-menu-option(data-id="item2")
-                div
-                    .iqdropdown-item=items[1]
-            .iqdropdown-menu-option(data-id="item3")
-                div
-                    .iqdropdown-item=items[2]
 
 

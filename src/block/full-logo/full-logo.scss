@@ -1,0 +1,16 @@
+@import "src/block/logo/color-logo";
+@import "src/block/title/title";
+
+.full-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: center;
+
+}
+
+.full-logo__title {
+
+  margin-left: 12.5px;
+
+}

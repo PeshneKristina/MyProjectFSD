@@ -26,10 +26,11 @@
 
 .irs--flat .irs-line
 {
-  height: 4px;
+  height: 6px;
   width: 265px;
   border: 1px solid  rgba(31, 32, 65, 0.25);
   background: #FFFFFF
+
 
 
 
@@ -39,24 +40,26 @@
 .irs--flat .irs-bar
 {
   background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+
   height: 6px;
-  top: 26px;
+  top: 25px;
 }
 
 .irs--flat .irs-handle > i:first-child
 {
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
   border: 2px solid #FFFFFF;
-  border-radius: 50%;
   background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
-  top: 0;
+  border-radius: 10px;
+  top: -2px;
   left: 0;
   margin-left: 0;
 }
 
 .irs--flat .irs-handle
 {
-  width: 12px;
-  height: 12px;
+  /*width: 12px;
+  height: 12px;*/
 }

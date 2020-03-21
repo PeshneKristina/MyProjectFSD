@@ -1,6 +1,12 @@
 include \..\..\block\login-form\login-form
 include \..\..\block\registration-form\registration-form
 include \..\..\block\logo\logo
+include \..\..\block\search-form\search-form
+include \..\..\block\form-reservation\form-reservation
+//include \..\..\block\calendar\calendar
+include \..\..\block\room-selection-form\room-selection-form
+include \..\..\block\room-information\room-information
+include \..\..\block\carousel\carousel
 
 
 doctype html
@@ -15,3 +21,14 @@ html
                 +registration-form()
             .cards__logo
                 +logo()
+            .cards__search-form
+                +search-form()
+            .cards__form-reservation
+                +form-reservation()
+            //.cards__calendar
+                +calendar()
+            .cards__room-selection-form1
+                +room-selection-form("888","люкс","9 900","145", "id3", "name3")
+            .cards__room-selection-form2
+                +room-selection-form("840","","9 900", "65","id4", "name4")
+

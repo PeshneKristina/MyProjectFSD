@@ -1,0 +1,14 @@
+include \..\..\block\checkbox-list\checkbox-list
+
+mixin header-panel(items,answer)
+    if answer=="yes"
+        .header-panel
+            span(class="header-panel__span header-panel__span"+1)=items[1]
+            div(class="header-panel__span header-panel__span"+"2")
+                +checkbox-list(items[2],"","cl1")
+    else
+        .header-panel
+            - for (let i = 0; i < items.length; i++)
+                //if i==2
+                    +checkbox-list(items[i],['df','dfd'],"cl1" )
+                span(class="header-panel__span header-panel__span"+i)=items[i]

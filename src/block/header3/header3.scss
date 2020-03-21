@@ -1,0 +1,107 @@
+@import "src/block/full-logo/full-logo";
+@import "src/block/header-panel/header-panel";
+@import "src/block/button/button";
+@import "src/block/button-border/button-border";
+@import "src/block/textfield/textfield";
+.header3{
+
+  width: 1440px;
+  height: 372px;
+  //box-sizing: content-box;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+  display: flex;
+  flex-direction: row;
+
+}
+
+.header3__div{
+  display: flex;
+
+}
+
+.header3__logo{
+
+  position: relative;
+  top:100px;
+  margin-right: 40px;
+  margin-left: 140px;
+}
+.header3__content{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  margin-top: 20px;
+  width: 260px;
+  height: 96px;
+}
+.header3__panel{
+  position: relative;
+  top:104px;
+
+  .header-panel__span{
+    display: flex;
+    flex-direction: column;
+    ont-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .header-panel__span0{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #1F2041;
+  }
+
+}
+.header3__panel-navigation{
+  margin-right: 119px;
+}
+.header3__panel-about-us{
+  margin-right: 118px;
+}
+.header3__panel-support{
+  margin-right: 87px;
+}
+
+.header3__subscribe{
+  position: relative;
+  top:104px;
+}
+.header3__subscribe-head{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+
+  color: #1F2041;
+}
+
+.header3__subscribe-content{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  margin-top: 21px;
+  width: 196px;
+}
+.header3__subscribe-textfield{
+  position: relative;
+  margin-top: 20px;
+}

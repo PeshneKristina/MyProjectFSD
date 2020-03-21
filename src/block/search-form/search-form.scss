@@ -1,0 +1,46 @@
+@import "__arrival-content/earch-form__arrival-content";
+@import "__button-arrow-search/search-form__button-arrow-search";
+@import "__date-dropdown-arrival/search-form__date-dropdown-arrival";
+@import "__head/search-form__head";
+@import "__date-dropdown-departure/search-form__date-dropdown-departure";
+@import "__departure-content/search-form__departure-content";
+@import "__dropdown-guests/search-form__dropdown-guests";
+@import "__guests/search-form__guests";
+@import "__date-dropdowns/search-form__date-dropdowns";
+@import "__arrival-content/earch-form__arrival-content";
+@import "__departure-content/search-form__departure-content";
+@import "__departure/search-form__departure";
+@import "src/block/date-dropdown/date-dropdown";
+@import "src/block/dropdown/dropdown";
+@import "./../../../node_modules/@chenfengyuan/datepicker/dist/datepicker.css";
+.search-form{
+  width: 380px;
+  height: 374px;
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding-left: 30px ;
+}
+
+.search-form__head{
+  margin-bottom: 20px;
+}
+
+.search-form__date-dropdowns{
+  //display: flex;
+
+  .date-dropdown{
+    position: relative;
+  }
+
+}
+
+.search-form__dropdown-guests{
+  width: 320px;
+  height: 44px;
+
+
+}

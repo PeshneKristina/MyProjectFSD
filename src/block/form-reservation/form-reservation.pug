@@ -1,0 +1,44 @@
+include \..\..\block\textfield\textfield
+include \..\..\block\button-border\button-border
+include \..\..\block\button-arrow\button-arrow
+include \..\..\block\radio-button\button-radio
+include \..\..\block\toggle\toggle
+
+mixin form-reservation()
+    .form-reservation
+        .form-reservation__head
+            .form-reservation__head-number-sign="№ "
+            .form-reservation__head-number="888"
+            .form-reservation__head-room="люкс"
+            .form-reservation__head-price="9 990₽ в сутки"
+        .form-reservation__date-dropdowns
+            .form-reservation__arrival
+                .form-reservation__arrival-content="Прибытие"
+                .form-reservation__date-dropdown-arrival
+                    +date-dropdown("dd3")
+            .form-reservation__departure
+                .form-reservation__departure-content="Выезд"
+                .form-reservation__date-dropdown-departure
+                    +date-dropdown("dd4")
+        .form-reservation__guests="Гости"
+        .form-reservation__dropdown-guests
+            +dropdown(['взрослые', 'дети', 'младенцы'])
+        .form-reservation__information
+            .form-reservation__information-room
+                .form-reservation__information-room-content.form-reservation__information-content="9 990₽ х 4 суток"
+                .form-reservation__information-room-price.form-reservation__information-price="39960₽"
+            .form-reservation__information-services
+                .form-reservation__information-services-content.form-reservation__information-content="Сбор за услуги: скидка 2 179₽"
+                .form-reservation__information-services-price.form-reservation__information-price="0₽"
+            .form-reservation__information-additional-services
+                .form-reservation__information-additional-services-content.form-reservation__information-content="Сбор за дополнительные услуги"
+                .form-reservation__information-additional-services-price.form-reservation__information-price="300₽"
+        .form-reservation__in-total
+            .form-reservation__in-total-content="Итого"
+            hr.form-reservation__in-total-hr
+            .form-reservation__in-total-price="38 081₽"
+        .form-reservation__button-arrow-search
+            +button-arrow("Забронировать")
+
+
+

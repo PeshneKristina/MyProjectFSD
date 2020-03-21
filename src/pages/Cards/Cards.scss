@@ -1,9 +1,16 @@
+@import '~font-awesome/css/font-awesome.css';
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+//@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
 @import "src/block/login-form/login-form";
 @import "src/block/registration-form/registration-form";
 @import "src/block/logo/logo";
+@import "../../block/search-form/search-form";
+@import "../../block/form-reservation/form-reservation";
+//@import "../../block/calendar/calendar";
+@import "../../block/room-selection-form/room-selection-form.scss";
+@import "../../block/carousel/carousel.scss";
 
 
 body {
@@ -20,14 +27,59 @@ body {
     top: 701px;
 
   }
-  &__registration-form{
+
+  &__registration-form {
     position: absolute;
     left: 140px;
     top: 564px;
   }
-  &__logo{
+
+  &__logo {
     position: absolute;
     left: 30px;
     top: 30px;
+  }
+
+  &__search-form {
+    position: absolute;
+    left: 140px;
+    top: 150px;
+  }
+
+  /*&__calendar{
+    position: absolute;
+    left: 980px;
+    top: 150px;
+  }*/
+  &__form-reservation {
+    position: absolute;
+    left: 560px;
+    top: 150px;
+  }
+
+  &__room-selection-form1 {
+
+    position: absolute;
+    left: 980px;
+    top: 559.5px;
+
+    .room-selection-form-carousel {
+      .carousel-item {
+
+        background: url("images/room1.png") no-repeat;
+      }
+    }
+  }
+
+  &__room-selection-form2 {
+    position: absolute;
+    left: 980px;
+    top: 856.5px;
+    .room-selection-form-carousel {
+      .carousel-item {
+
+        background: url("images/room2.png") no-repeat;
+      }
+    }
   }
 }

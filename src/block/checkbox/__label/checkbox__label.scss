@@ -28,8 +28,8 @@ $gradient-color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   &::after
   {
     content: none;
-    width: 6px;
-    height: 4px;
+    width: 8px;
+    height: 6px;
     transform: rotate(-45deg);
     display: inline-block;
     position: absolute;
