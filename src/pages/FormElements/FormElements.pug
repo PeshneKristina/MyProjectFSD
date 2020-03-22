@@ -17,7 +17,7 @@ include \..\..\block\comment\comment
 include \..\..\block\date-dropdown\date-dropdown
 include \..\..\block\logo\logo
 include \..\..\block\pagination\pagination
-
+include \..\..\block\filter-date-dropdown\filter-date-dropdown
 
 
 doctype html
@@ -133,4 +133,6 @@ html
             .form-elements__pagination-content="pagination"
             .form-elements__pagination
                 +pagination()
-
+            .form-elements__filter-date-dropdown-content="filter date dropdown"
+            .form-elements__filter-date-dropdown
+                +filter-date-dropdown("fdd1")

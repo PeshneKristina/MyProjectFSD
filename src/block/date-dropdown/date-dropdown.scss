@@ -1,8 +1,8 @@
-@import "./../../../node_modules/@chenfengyuan/datepicker/dist/datepicker.css";
+//@import "./../../../node_modules/@chenfengyuan/datepicker/dist/datepicker.css";
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import "__span-icons/date-dropdown__span-icons";
 @import "__input/date-dropdown__input";
-
+@import "~air-datepicker/dist/css/datepicker.css";
 .date-dropdown__input{
   width: 150px;
 

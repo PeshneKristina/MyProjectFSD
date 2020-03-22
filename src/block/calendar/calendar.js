@@ -1,10 +1,13 @@
-/*import "air-datepicker/dist/js/datepicker"
+import "air-datepicker/dist/js/datepicker"
+
 
 $('.datepicker-here').datepicker({
-    minDate: new Date(),
+    navTitles: {
+        days: 'MM <i>yyyy</i>'
+    },
     inline: true,
     range: true,
-    //todayButton: new Date(),
     clearButton: true,
-
-});*/
+    prevHtml:"arrow_back",
+    nextHtml:"arrow_forward",
+});

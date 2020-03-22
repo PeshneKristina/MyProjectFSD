@@ -1,4 +1,10 @@
-mixin date-dropdown(id)
+//mixin date-dropdown(id)
     .date-dropdown
         input(class="date-dropdown__input date-dropdown__input_"+id data-toggle="datepicker_"+id id="date-field1_"+id type="text" placeholder="ДД.ММ.ГГГГ",)
         span(class = "date-dropdown__span-icons date-dropdown__span-icons_"+id)="keyboard_arrow_down"
+
+
+mixin date-dropdown(id)
+    .date-dropdown
+        input(class="date-dropdown__input" data-toggle="datepicker_" id="date-field_"+id type="text" placeholder="ДД.ММ.ГГГГ")
+        span(class = "date-dropdown__span-icons" id="span"+ id)="keyboard_arrow_down"

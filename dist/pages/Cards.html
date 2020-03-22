@@ -1,5 +1,11 @@
 
-<!--include \..\..\block\calendar\calendar--><!DOCTYPE html>
+<!--mixin date-dropdown(id)
+.date-dropdown
+    input(class="date-dropdown__input date-dropdown__input_"+id data-toggle="datepicker_"+id id="date-field1_"+id type="text" placeholder="ДД.ММ.ГГГГ",)
+    span(class = "date-dropdown__span-icons date-dropdown__span-icons_"+id)="keyboard_arrow_down"
+
+
+--><!DOCTYPE html>
 <html>
   <head>
     <title>UI KIT</title>
@@ -109,7 +115,7 @@
               <div class="search-form__arrival-content">Прибытие</div>
               <div class="search-form__date-dropdown-arrival">
                 <div class="date-dropdown">
-                  <input class="date-dropdown__input date-dropdown__input_dd1" data-toggle="datepicker_dd1" id="date-field1_dd1" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons date-dropdown__span-icons_dd1">keyboard_arrow_down</span>
+                  <input class="date-dropdown__input" data-toggle="datepicker_" id="date-field_dd1" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons">keyboard_arrow_down</span>
                 </div>
               </div>
             </div>
@@ -117,7 +123,7 @@
               <div class="search-form__departure-content">Выезд</div>
               <div class="search-form__date-dropdown-departure">
                 <div class="date-dropdown">
-                  <input class="date-dropdown__input date-dropdown__input_dd2" data-toggle="datepicker_dd2" id="date-field1_dd2" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons date-dropdown__span-icons_dd2">keyboard_arrow_down</span>
+                  <input class="date-dropdown__input" data-toggle="datepicker_" id="date-field_dd2" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons">keyboard_arrow_down</span>
                 </div>
               </div>
             </div>
@@ -169,7 +175,7 @@
               <div class="form-reservation__arrival-content">Прибытие</div>
               <div class="form-reservation__date-dropdown-arrival">
                 <div class="date-dropdown">
-                  <input class="date-dropdown__input date-dropdown__input_dd3" data-toggle="datepicker_dd3" id="date-field1_dd3" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons date-dropdown__span-icons_dd3">keyboard_arrow_down</span>
+                  <input class="date-dropdown__input" data-toggle="datepicker_" id="date-field_dd3" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons">keyboard_arrow_down</span>
                 </div>
               </div>
             </div>
@@ -177,7 +183,7 @@
               <div class="form-reservation__departure-content">Выезд</div>
               <div class="form-reservation__date-dropdown-departure">
                 <div class="date-dropdown">
-                  <input class="date-dropdown__input date-dropdown__input_dd4" data-toggle="datepicker_dd4" id="date-field1_dd4" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons date-dropdown__span-icons_dd4">keyboard_arrow_down</span>
+                  <input class="date-dropdown__input" data-toggle="datepicker_" id="date-field_dd4" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons">keyboard_arrow_down</span>
                 </div>
               </div>
             </div>
@@ -235,12 +241,20 @@
           </div>
         </div>
       </div>
-      <!--.cards__calendar+calendar()
-      -->
+      <div class="cards__calendar">
+        <div class="calendar">
+          <div class="calendar__div datepicker-here"></div>
+        </div>
+      </div>
       <div class="cards__room-selection-form1">
         <div class="room-selection-form">
           <div class="room-selection-form-carousel">
-            <div class="owl-carousel" id="js-carousel-1"><img class="carousel-item" src="room1.png"><img class="carousel-item" src="room1.png"><img class="carousel-item" src="room1.png"></div>
+            <div class="owl-carousel" id="js-carousel-1">
+              <div class="carousel-item"></div>
+              <div class="carousel-item"></div>
+              <div class="carousel-item"></div>
+              <div class="carousel-item"></div>
+            </div>
           </div>
           <div class="room-selection-form-content">
             <div class="room-selection-form__information">
@@ -268,7 +282,7 @@
                   <label class="rate-button__label" for="rating_1id3"></label>
                 </div>
               </div>
-              <div class="room-selection-form__assessment-reviews-number">65</div>
+              <div class="room-selection-form__assessment-reviews-number">145</div>
               <div class="room-selection-form__assessment-reviews">Отзывов</div>
             </div>
           </div>
@@ -277,7 +291,12 @@
       <div class="cards__room-selection-form2">
         <div class="room-selection-form">
           <div class="room-selection-form-carousel">
-            <div class="owl-carousel" id="js-carousel-1"><img class="carousel-item" src="room2.png"><img class="carousel-item" src="room2.png"><img class="carousel-item" src="room2.png"></div>
+            <div class="owl-carousel" id="js-carousel-1">
+              <div class="carousel-item"></div>
+              <div class="carousel-item"></div>
+              <div class="carousel-item"></div>
+              <div class="carousel-item"></div>
+            </div>
           </div>
           <div class="room-selection-form-content">
             <div class="room-selection-form__information">
