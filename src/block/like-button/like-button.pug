@@ -1,5 +1,5 @@
-mixin like-button(input)
+mixin like-button(input, id, number)
     .like-button
-        input(class="like-button__input" type="checkbox" id=input name=group)
+        input(class="like-button__input" type="checkbox" id=input name=group checked=false)
         label(class="like-button__label" for=input)
-            span(class="like-button__span")=''
+            span(class="like-button__span" id="span_"+id)=number

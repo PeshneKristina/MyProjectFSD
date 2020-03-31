@@ -5,7 +5,7 @@ import "air-datepicker/dist/js/datepicker"
 
 $(document).ready(function () {
     //$(".date-dropdown__input").mask("99.99.9999");
-    let spans = document.getElementsByClassName("date-dropdown__span-icons");
+    let spans = $(".date-dropdown__span-icons");
     for (let i = 0; i < spans.length; i++) {
         spans[i].addEventListener('click', function (event) {
             let inp = spans[i].previousElementSibling.id;

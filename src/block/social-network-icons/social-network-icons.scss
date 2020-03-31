@@ -1,22 +1,5 @@
 @import "~font-awesome/css/font-awesome.css";
 
-/*
-.social-network-icons__twitter{
-  !*font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 23px;
-
-  display: flex;
-  align-items: center;
-  text-align: center;*!
-  margin-right: 20px;
-  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-}
-*/
 
 
 .fa-twitter, .fa-facebook-square, .fa-instagram{
@@ -26,7 +9,7 @@
   font-size: 24px;
   line-height: 23px;
   color: #8BA4F9;
- // background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  //background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   /*-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
   margin-right: 20px;

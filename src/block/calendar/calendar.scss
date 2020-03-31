@@ -1,6 +1,6 @@
 @import "~air-datepicker/dist/css/datepicker.css";
 
-.datepicker-inline .datepicker{
+.datepicker{
   width: 320px;
   min-height: 369px;
   background: #FFFFFF;
@@ -115,7 +115,19 @@
   color: #FFFFFF;
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   border-radius: 22px;
+
+  &::after{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    content:"";
+    opacity: 0.25;
+    border-radius: 50% 0 0 50%;
+    display: inline-block;
+    position: absolute;
+  }
 }
+
 .datepicker--cell.-range-to-{
   font-family: Montserrat;
   font-style: normal;
@@ -130,6 +142,16 @@
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   border-radius: 22px;
 
+  &::before{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    content:"";
+    opacity: 0.25;
+    border-radius: 0 50% 50% 0;
+    display: inline-block;
+    position: absolute;
+  }
 }
 
 .datepicker--cell.-selected-.-focus-
@@ -175,3 +197,4 @@
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.5);
 }
+

@@ -13,10 +13,11 @@
     content: "";
     display: inline-block;
     position: relative;
-    top: 5px;
+    top: 4px;
     height: 20px;
     width: 40px;
     border-radius: 10px;
+    box-sizing: border-box;
     border: 1px solid rgba(31, 32, 65, 0.25);
   }
 
@@ -24,13 +25,14 @@
   {
     content: "";
     display: inline-block;
-    position: absolute;
-    top: 2.5px;
+    position:absolute;
+    top: 15%;
     left: 4px;
     height: 12px;
     width: 12px;
     border-radius: 50%;
     background: rgba(31, 32, 65, 0.25);
+
   }
 
   .toggle__input:checked + &::after

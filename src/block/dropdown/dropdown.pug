@@ -1,10 +1,11 @@
 
-mixin dropdown(items, number)
+mixin dropdown(items, number,id)
     if (number == "2")
         .iqdropdown2
             .iqdropdown
                 p(class="iqdropdown-selection iqdropdown-selection2 " data-seletion-text="item" data-text-plural="items")
-                .iqdropdown-menu
+                span(class = "iqdropdown__span-icons" id="span_"+id)="keyboard_arrow_down"
+                .iqdropdown-menu(id="menu_"+id)
                     .iqdropdown-menu-option( data-id="item1")
                         div
                             .iqdropdown-item=items[0]
@@ -15,13 +16,14 @@ mixin dropdown(items, number)
                         div
                             .iqdropdown-item=items[2]
                     .iqdropdown-menu-buttons
-                        .iqdropdown-clear="Очистить"
-                        .iqdropdown-apply="Применить"
+                        span.iqdropdown-clear="Очистить"
+                        span.iqdropdown-apply="Применить"
     else
         .default
             .iqdropdown
                 p(class="iqdropdown-selection" data-seletion-text="item" data-text-plural="items")
-                .iqdropdown-menu
+                span(class = "iqdropdown__span-icons" id="span")="keyboard_arrow_down"
+                .iqdropdown-menu(id="menu_"+id)
                     .iqdropdown-menu-option( data-id="item1")
                         div
                             .iqdropdown-item=items[0]
@@ -32,8 +34,8 @@ mixin dropdown(items, number)
                         div
                             .iqdropdown-item=items[2]
                     .iqdropdown-menu-buttons
-                        .iqdropdown-clear="Очистить"
-                        .iqdropdown-apply="Применить"
+                        span.iqdropdown-clear(id="clear_"+id)="Очистить"
+                        span.iqdropdown-apply="Применить"
 
 
 

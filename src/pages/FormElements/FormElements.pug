@@ -54,9 +54,9 @@ html
                 +checkbox("checkbox-3", "Можно пригласить гостей (до 10 человек)", "group2")
             .form-elements__div-like-button="like button"
             .form-elements__div-like-button-1
-                +like-button("like-button-1")
+                +like-button("like-button-1","1", "2")
             .form-elements__div-like-button-2
-                +like-button("like-button-2")
+                +like-button("like-button-2","2","11")
             .form-elements__div-toggle="toggle"
             .form-elements__div-toggle-1
                 +toggle('toggle-1', 'Получать спецпредложения')
@@ -79,7 +79,7 @@ html
             .form-elements__dropdown-content="dropdown"
             .form-elements__div-content-default2="default"
             .form-elements__div-dropdown1
-                +dropdown(['взрослые', 'дети', 'младенцы'])
+                +dropdown(['взрослые', 'дети', 'младенцы'],"1","1")
             .form-elements__div-textfield3-content="masked text field"
             .form-elements__div-content-default3="default"
             .form-elements__div-texfield3
@@ -89,18 +89,18 @@ html
                 +textfield("email-field-arrow","Email","email","yes")
             .form-elements__dropdown-content2="dropdown"
             .form-elements__div-dropdown2
-                +dropdown(['взрослые', 'дети', 'младенцы'])
+                +dropdown(['взрослые', 'дети', 'младенцы'],"1","2")
             .form-elements__dropdown-content3="dropdown"
             .form-elements__div-dropdown3
-                +dropdown(['взрослые', 'дети', 'младенцы'])
+                +dropdown(['взрослые', 'дети', 'младенцы'],"1","3")
             .form-elements__dropdown-content4="dropdown"
             .form-elements__dropdown-content-default="default"
             .form-elements__div-dropdown4
-                +dropdown(['спальни', 'кровати', 'ванные комнаты'],"2")
+                +dropdown(['спальни', 'кровати', 'ванные комнаты'],"2","4")
             .form-elements__dropdown-content5="dropdown"
             .form-elements__dropdown-content-expanded="expanded"
             .form-elements__div-dropdown5
-                +dropdown(['спальни', 'кровати', 'ванные комнаты'],"2")
+                +dropdown(['спальни', 'кровати', 'ванные комнаты'],"2","5")
             .form-elements__information1
                 +information("insert_emoticon", "Комфорт", "Шумопоглощающие стены")
             .form-elements__information2

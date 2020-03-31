@@ -5,7 +5,7 @@ import 'jquery.maskedinput/src/jquery.maskedinput'
 
 $(document).ready(function () {
     //$(".filter-date-dropdown__input").mask("99.99.9999");
-    let spans = document.getElementsByClassName("filter-date-dropdown__span-icons");
+    let spans = $(".filter-date-dropdown__span-icons");
     for (let i = 0; i < spans.length; i++) {
         spans[i].addEventListener('click', function (event) {
             let inp = spans[i].previousElementSibling.id;

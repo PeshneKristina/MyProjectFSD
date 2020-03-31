@@ -13,6 +13,9 @@ module.exports =
             ColorType: './src/pages/Colors&Type/Colors&Type.js',
             Cards: './src/pages/Cards/Cards.js',
             HeadersFooters: './src/pages/Headers&Footers/Headers&Footers.js',
+            UIKit: './src/pages/UIKit/UIKit.js',
+            WebsitePages: './src/pages/WebsitePages/WebsitePages.js',
+            SignIn: './src/pages/SignIn/SignIn.js',
         },
         output:
             {
@@ -57,6 +60,25 @@ module.exports =
                 filename: 'pages/Headers&Footers.html',
                 template: './src/pages/Headers&Footers/Headers&Footers.pug',
             }),
+            new HtmlWebpackPlugin({
+                inject: true,
+                chunks: ['WebsitePages'],
+                filename: 'pages/WebsitePages.html',
+                template: './src/pages/WebsitePages/WebsitePages.pug',
+            }),
+            new HtmlWebpackPlugin({
+                inject: true,
+                chunks: ['UIKit'],
+                filename: 'pages/UIKit.html',
+                template: './src/pages/UIKit/UIKit.pug',
+            }),
+            new HtmlWebpackPlugin({
+                inject: true,
+                chunks: ['SignIn'],
+                filename: 'pages/SignIn.html',
+                template: './src/pages/SignIn/SignIn.pug',
+            }),
+
         ],
 
 
@@ -64,6 +86,7 @@ module.exports =
             {
                 rules:
                     [
+
                         {
                             test: /\.m?js$/,
                             exclude: /(node_modules|bower_components)/,
