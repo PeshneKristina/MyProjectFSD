@@ -3,7 +3,7 @@
 @import "src/block/button/button";
 @import "src/block/button-border/button-border";
 
-.header1{
+.header1 {
   width: 1440px;
   height: 70px;
   background: #FFFFFF;
@@ -15,26 +15,13 @@
 
 }
 
-.header1__login{
+.header1__login {
   margin-right: 20px;
 }
 
-.header1__logo{
+.header1__logo {
   margin-right: 298px;
   margin-left: 140px;
 }
-.header1__panel{
 
-  .header-panel__span{
-    /*position: relative;
-    display: flex;
-    flex-direction: column;*/
-  }
-  .header__panel{
-    //color: blue;
-    /*position: absolute;
-    display: inline;*/
-    //flex-direction: row;
-  }
 
-}

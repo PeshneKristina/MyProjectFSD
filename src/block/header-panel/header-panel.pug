@@ -1,14 +1,13 @@
 include \..\..\block\checkbox-list\checkbox-list
 
-mixin header-panel(items,answer)
-    if answer=="yes"
-        .header-panel
-            span(class="header-panel__span header-panel__span"+1)=items[1]
-            div(class="header-panel__span header-panel__span"+"2")
-                +checkbox-list(items[2],"","cl1")
-    else
-        .header-panel
-            - for (let i = 0; i < items.length; i++)
-                //if i==2
-                    +checkbox-list(items[i],['df','dfd'],"cl1" )
-                span(class="header-panel__span header-panel__span"+i)=items[i]
+mixin header-panel(items,numbers)
+    .header-panel
+        - for (let i = 0; i < items.length; i++)
+            if (numbers.indexOf( i ) != -1)
+                .header-panel__div.header-panel-arrow
+                    span(class="header-panel__span header-panel__span" + i)=items[i]
+                    span(class="header-panel__span-icon")='expand_more'
+            else
+                .header-panel__div
+                    span(class="header-panel__span header-panel__span" + i)=items[i]
+
