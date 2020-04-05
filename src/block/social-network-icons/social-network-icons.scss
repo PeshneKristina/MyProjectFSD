@@ -8,7 +8,7 @@
     width: 24px;
     min-width: 24px;
     height: 24px;
-    margin-left: 20px;
+
   }
 
   &__twitter {
@@ -17,9 +17,11 @@
 
   &__facebook {
     background-image: url('./images/facebook.png');
+    margin-left: 20px;
   }
 
   &__instagram {
     background-image: url('./images/instagram.png');
+    margin-left: 20px;
   }
 }

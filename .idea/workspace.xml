@@ -2,22 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8b3c87-aafe-42df-a873-65955f7dc491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/block/social-network-icons/images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/social-network-icons/images/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/social-network-icons/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/block/header3/header3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignIn/image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/footer3/footer3.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header3/header3.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/footer3/footer3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header3/header3.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/Headers&amp;Footers.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/Headers&amp;Footers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/SignIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/SignIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/Cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/ColorType.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/ColorType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/FormElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/FormElements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/HeadersFooters.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/HeadersFooters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/UIKit.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/UIKit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/WebsitePages.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/WebsitePages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/footer1/footer1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/footer1/footer1.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/footer1/footer1.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/footer2/footer2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/footer2/footer2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/footer2/footer2.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/block/header-panel/header-panel.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header-panel/header-panel.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/block/header-panel/header-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header-panel/header-panel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/block/header1/header1.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header1/header1.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/block/header1/header1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header1/header1.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/header2/header2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header2/header2.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/social-network-icons/social-network-icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/social-network-icons/social-network-icons.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/social-network-icons/social-network-icons.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/header2/header2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header2/header2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/header3/header3.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header3/header3.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block/header3/header3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/header3/header3.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/block/social-network-icons/social-network-icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/social-network-icons/social-network-icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Headers&amp;Footers/Headers&amp;Footers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/SignIn.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/SignIn.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/SignIn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/SignIn.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +59,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/block/social-network-icons/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/SignIn" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kris\Documents\GitHub\MyProjectFSD\src\block\social-network-icons\images" />
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\filter-date-dropdown" />
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\room-selection-form\images" />
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\dropdown" />
-      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\search-form" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\pages\Cards" />
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\carousel\images" />
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\carousel" />
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\room-selection-form\images" />
       <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\dist\fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kris\Documents\GitHub\MyProjectFSD\src\pages\SignIn" />
+      <recent name="C:\Users\kris\Documents\GitHub\MyProjectFSD\src\block\social-network-icons\images" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\filter-date-dropdown" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\room-selection-form\images" />
+      <recent name="C:\Users\akins\Documents\GitHub\MyProjectFSD\src\block\dropdown" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -144,6 +162,12 @@
       <workItem from="1585515607198" duration="885000" />
       <workItem from="1585647829115" duration="12585000" />
       <workItem from="1585849857843" duration="6344000" />
+      <workItem from="1585907235558" duration="5434000" />
+      <workItem from="1586000039900" duration="149000" />
+      <workItem from="1586000417392" duration="609000" />
+      <workItem from="1586039547584" duration="249000" />
+      <workItem from="1586039890203" duration="4029000" />
+      <workItem from="1586101322026" duration="4229000" />
     </task>
     <servers />
   </component>
@@ -173,35 +197,35 @@
     </state>
     <state x="536" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1584701990349" />
     <state x="670" y="273" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585665748637" />
-    <state x="624" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585853060245">
+    <state x="624" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585912126205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583582128924" />
-    <state x="624" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585853060245" />
+    <state x="624" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585912126205" />
     <state x="585" y="113" width="959" height="813" key="CommitChangelistDialog2" timestamp="1585154603152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="113" width="959" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585154603152" />
-    <state width="1898" height="222" key="GridCell.Tab.0.bottom" timestamp="1585857710863">
+    <state width="1898" height="222" key="GridCell.Tab.0.bottom" timestamp="1586105566501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584894312395" />
-    <state width="1898" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585857710863" />
-    <state width="1898" height="222" key="GridCell.Tab.0.center" timestamp="1585857710863">
+    <state width="1898" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586105566501" />
+    <state width="1898" height="222" key="GridCell.Tab.0.center" timestamp="1586105566500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584894312395" />
-    <state width="1898" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585857710863" />
-    <state width="1898" height="222" key="GridCell.Tab.0.left" timestamp="1585857710863">
+    <state width="1898" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586105566500" />
+    <state width="1898" height="222" key="GridCell.Tab.0.left" timestamp="1586105566500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584894312395" />
-    <state width="1898" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585857710863" />
-    <state width="1898" height="222" key="GridCell.Tab.0.right" timestamp="1585857710863">
+    <state width="1898" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586105566500" />
+    <state width="1898" height="222" key="GridCell.Tab.0.right" timestamp="1586105566501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584894312395" />
-    <state width="1898" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585857710863" />
+    <state width="1898" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586105566501" />
     <state x="661" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1585253619081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

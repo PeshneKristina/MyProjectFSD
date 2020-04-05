@@ -7,7 +7,6 @@
 
   width: 1440px;
   height: 372px;
-  //box-sizing: content-box;
   background: #FFFFFF;
   box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
   display: flex;
@@ -43,10 +42,15 @@
   top:104px;
 
   .header-panel{
+    //display: block;
     flex-direction: column;
+  }
+  .header-panel__div{
+    margin-right: 0;
   }
   .header-panel__span{
     display: flex;
+
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -54,7 +58,6 @@
     line-height: 17px;
     color: rgba(31, 32, 65, 0.5);
     margin-bottom: 20px;
-    margin-right: 0;
   }
   .header-panel__span0{
     font-family: Montserrat;
@@ -65,11 +68,13 @@
     text-transform: uppercase;
 
     color: #1F2041;
+    margin-bottom: 21px;
   }
 
 }
 .header3__panel-navigation{
   margin-right: 119px;
+
 }
 .header3__panel-about-us{
   margin-right: 118px;
@@ -101,7 +106,7 @@
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   margin-top: 21px;
-  width: 196px;
+  width: 260px;
 }
 .header3__subscribe-textfield{
   position: relative;

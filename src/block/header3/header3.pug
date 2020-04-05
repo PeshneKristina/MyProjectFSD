@@ -5,22 +5,23 @@ include \..\..\block\button\button
 include \..\..\block\textfield\textfield
 
 
-mixin header3()
+mixin header3(content, column1, column2,column3, subscribe_head,subscribe_content, text)
     .header3
         .header3__div
             .header3__logo
                 .header3__full-logo
                     +full-logo()
-                .header3__content="Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis."
+                .header3__content=content
             .header3__panel.header3__panel-navigation
-                +header-panel(['Navigation', 'About Us', 'News', 'Support', 'Products'],[])
+                +header-panel(column1,[])
             .header3__panel.header3__panel-about-us
-                +header-panel(['About Us', 'Who we are', 'Our team', 'Careers', 'Investors '],[])
+                +header-panel(column2,[])
             .header3__panel.header3__panel-support
-                +header-panel(['support', 'Documentation', 'Community', 'Get in Touch'],[])
+                +header-panel(column3,[])
             .header3__subscribe
-                .header3__subscribe-head="Subscribe to our newsletter"
-                .header3__subscribe-content="Receive our latest news and promotions in your inbox!"
-                .header3__subscribe-textfield
-                    +textfield("email-field-arrow","Your email address","email","yes")
+                .header3__subscribe-head=subscribe_head
+                .header3__subscribe-content=subscribe_content
+                form(name="header")
+                    .header3__subscribe-textfield
+                        +textfield("email-field-arrow",text,"email","yes")
 

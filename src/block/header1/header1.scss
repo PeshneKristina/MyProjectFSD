@@ -20,8 +20,27 @@
 }
 
 .header1__logo {
-  margin-right: 298px;
+  display: flex;
+  flex: 1;
+  text-align: left;
+
+
   margin-left: 140px;
 }
 
 
+.header1__register {
+  margin-right: 140px;
+  .button {
+    width: 101px;
+    height: 34px;
+  }
+}
+
+.header1__login {
+  .button-border {
+    width: 79px;
+    height: 34px;
+  }
+
+}
