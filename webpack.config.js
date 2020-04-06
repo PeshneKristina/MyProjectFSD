@@ -16,6 +16,7 @@ module.exports =
             UIKit: './src/pages/UIKit/UIKit.js',
             WebsitePages: './src/pages/WebsitePages/WebsitePages.js',
             SignIn: './src/pages/SignIn/SignIn.js',
+            Registration:'./src/pages/Registration/Registration.js',
         },
         output:
             {
@@ -77,6 +78,12 @@ module.exports =
                 chunks: ['SignIn'],
                 filename: 'pages/SignIn.html',
                 template: './src/pages/SignIn/SignIn.pug',
+            }),
+            new HtmlWebpackPlugin({
+                inject: true,
+                chunks: ['Registration'],
+                filename: 'pages/Registration.html',
+                template: './src/pages/Registration/Registration.pug',
             }),
 
         ],

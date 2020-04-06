@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 @import "src/block/header1/header1";
-@import "src/block/login-form/login-form";
+@import "src/block/registration-form/registration-form";
 @import "src/block/footer1/footer1";
 @import "src/block/header3/header3";
 
@@ -14,28 +14,28 @@ body {
 }
 
 
-.signIn__enter_div {
+.registration__enter_div {
   background: url("image.png");
   height: 753px;
 }
 
-.signIn__enter_div_login-form {
+.registration__enter_div_registration-form {
   position: relative;
-  top: 163px;
-  left: 510px;
+  top: 30px;
+  left: 520px;
 }
 
-.signIn__header3 {
+.registration__header3 {
   margin-bottom: 1px;
 }
 
-.signIn__header {
+.registration__header {
   .header-panel__span0 {
     font-weight: normal;
     color: rgba(31, 32, 65, 0.5);
   }
 }
-.signIn__header{
+.registration__header{
   .header1__register {
     .button {
       width:196px;
