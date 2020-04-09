@@ -17,6 +17,8 @@ module.exports =
             WebsitePages: './src/pages/WebsitePages/WebsitePages.js',
             SignIn: './src/pages/SignIn/SignIn.js',
             Registration:'./src/pages/Registration/Registration.js',
+            LandingPage:'./src/pages/LandingPage/LandingPage.js',
+            RoomDetails: './src/pages/RoomDetails/RoomDetails.js'
         },
         output:
             {
@@ -84,6 +86,18 @@ module.exports =
                 chunks: ['Registration'],
                 filename: 'pages/Registration.html',
                 template: './src/pages/Registration/Registration.pug',
+            }),
+            new HtmlWebpackPlugin({
+                inject: true,
+                chunks: ['LandingPage'],
+                filename: 'pages/LandingPage.html',
+                template: './src/pages/LandingPage/LandingPage.pug',
+            }),
+            new HtmlWebpackPlugin({
+                inject: true,
+                chunks: ['RoomDetails'],
+                filename: 'pages/RoomDetails.html',
+                template: './src/pages/RoomDetails/RoomDetails.pug',
             }),
 
         ],

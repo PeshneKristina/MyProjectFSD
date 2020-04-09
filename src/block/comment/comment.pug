@@ -1,4 +1,6 @@
-mixin comment(name, lastSeen, content)
+include \..\..\block\like-button\like-button
+
+mixin comment(name, lastSeen, content, input, id,number )
     .comment
         .comment__man
             .comment__avatar
@@ -6,5 +8,5 @@ mixin comment(name, lastSeen, content)
                 .comment__name=name
                 .comment__last-seen=lastSeen
         .comment__content
-            +like-button("like-button-comment","3","11")
+            +like-button(input, id, number)
             .comment__content-info=content

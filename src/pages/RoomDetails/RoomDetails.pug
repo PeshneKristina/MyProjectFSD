@@ -1,0 +1,60 @@
+include \..\..\block\header1\header1
+include \..\..\block\footer1\footer1
+include \..\..\block\header3\header3
+include \..\..\block\information\information
+include \..\..\block\comment\comment
+include \..\..\block\bullet-list\bullet-list
+include \..\..\block\form-reservation\form-reservation
+
+doctype
+html
+    body
+        .room-details
+            .room-details__header
+                +header1(['О нас', 'Услуги', 'Вакансии', 'Новости', 'Соглашения'],[1, 4],"Войти","Зарегистрироваться")
+            .room-details__images
+                .room-details__image1
+                .room-details__images-group
+                    .room-details__image2
+                    .room-details__image3
+            .room-details__div
+                .room-details__statistics
+                    .room-details__information
+                        .room-details__information-content="Сведения о номере"
+                        .room-details__information-div
+                        +information("insert_emoticon","Комфорт","Шумопоглощающие стены")
+                        .room-details__information-div
+                        +information("location_city","Удобство","Окно в каждой из спален")
+                        .room-details__information-div
+                        +information("whatshot","Уют","Номер оснащён камином")
+                    .room-details__impression
+                        .room-details__impression-content="Впечатления от номера"
+                        .room-details__impression-div
+                            .room-details__impression-diagram
+                            .room-details__impression-designations
+                                +bullet-list(["Великолепно", "Хорошо", "Удовлетворительно", "Разочарован"])
+                .room-details__reviews
+                    .room-details__reviews-content="Отзывы посетителей номера"
+                    .room-details__reviews-number="2 отзыва"
+                    .room-details__review.room-details__review1
+                        +comment("Мурад Сарафанов","5 дней назад", "Великолепный матрас на кровати в основной спальне! " +
+                            "А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.","like-button-comment-1","4","11")
+                    .room-details__review.room-details__review2
+                        +comment("Патрисия Стёклышкова","Неделю назад", "Обслуживание на высоте! Всё аккуратно, чисто. Завтраки в номер советую заказать, каждый день новое блюдо и десерт как комплимент","like-button-comment-2","5","2")
+                .room-details__info
+                    .room-details__rules
+                        .room-details__rules-content="Правила"
+                        .room-details__rules-bullet-list
+                            +bullet-list(["Нельзя с питомцами","Без вечеринок и мероприятий","Время прибытия — после 13:00, а выезд до 12:00"])
+                    .room-details__cancel
+                        .room-details__cancel-head="Отмена"
+                        .room-details__cancel-content="Бесплатная отмена в течение 48 ч. После этого при отмене не позднее чем за 5 дн. до прибытия вы получите полный возврат за вычетом сбора за услуги."
+            .room-details__room-form-reservation
+                +form-reservation()
+
+            .room-details__header3
+                +header3("Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»",
+                    ['Навигация', 'О нас', 'Новости', 'Служба поддержки', 'Услуги'],['О нас', 'О сервисе', 'Наша команда', 'Вакансии', 'Инвесторы'],
+                    ['Служба поддержки', 'Соглашения', 'Сообщества', 'Связь с нами'],'Подписка','Получайте специальные предложения и новости сервиса',"Email")
+            .room-details__footer
+                +footer1("Copyright © 2018 Toxin отель. Все права зачищены.")

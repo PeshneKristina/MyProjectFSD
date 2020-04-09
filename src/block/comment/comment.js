@@ -1,0 +1,1 @@
+import "../../block/like-button/like-button"

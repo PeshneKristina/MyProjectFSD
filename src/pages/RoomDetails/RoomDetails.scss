@@ -1,0 +1,232 @@
+@import "src/block/header1/header1";
+@import '~font-awesome/css/font-awesome.css';
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import "src/block/footer1/footer1";
+@import "src/block/header3/header3";
+@import "src/block/information/information";
+@import "src/block/comment/comment";
+@import "src/block/bullet-list/bullet-list";
+@import "src/block/form-reservation/form-reservation";
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 1937px;
+}
+
+.room-details__header {
+  .header1__register {
+    .button {
+      width: 196px;
+    }
+  }
+}
+
+.room-details__images {
+  height: 486px;
+  display: flex;
+
+}
+
+.room-details__image1 {
+  background-image: url("image1.png");
+  width: 981px;
+  height: 485px;
+}
+
+.room-details__image2 {
+
+  background-image: url("image2.png");
+  width: 459px;
+  height: 244px;
+}
+
+.room-details__image3 {
+  background-image: url("image3.png");
+  width: 459px;
+  height: 242px;
+}
+
+.room-details__images-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.room-details__header3 {
+  box-shadow: 0px 10px 0px rgba(31, 32, 65, 0.1);
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.room-details__header {
+  .header-panel__span0 {
+    font-weight: normal;
+    color: rgba(31, 32, 65, 0.5);
+  }
+}
+
+.room-details__header {
+  .header1__register {
+    .button {
+      width: 196px;
+    }
+  }
+}
+
+.room-details__information-content {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+}
+
+.room-details__information-div {
+  margin-top: 23px;
+}
+
+.room-details__impression-content {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+}
+
+.room-details__reviews-content {
+  float: left;
+  text-align: left;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+}
+
+.room-details__div {
+  display: flex;
+  flex-direction:column ;
+  margin-left: 140px;
+  margin-top: 70px;
+}
+
+.room-details__reviews {
+  margin-top: 30px;
+}
+
+.room-details__review {
+  margin-top: 22px;
+}
+
+.room-details__review2 {
+  .comment__avatar {
+    background: url("avatar2.png") no-repeat 50% 30%;
+  }
+}
+.room-details__rules-content{
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.room-details__cancel-head{
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+}
+.room-details__cancel-content{
+  margin-top: 20px;
+  width: 341px;
+  height: 96px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+.room-details__info{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+
+}
+.room-details__cancel{
+  margin-left: 70px;
+}
+.room-details__room-form-reservation{
+  float: right;
+  margin-right: 140px;
+  margin-top: 70px;
+}
+.room-details{
+
+}
+.room-details__div{
+  float: left;
+}
+.room-details__impression-diagram{
+  background-image: url("Pie.png");
+  height: 121px;
+  width:120px;
+}
+.room-details__impression-designations{
+  margin-left: 30px;
+  margin-top: 30px;
+  .bullet-list{
+    &__li{
+      margin-bottom: 0px;
+      display: flex;
+    }
+    &__before{
+      margin-right: 5px;
+    }
+    :nth-child(1) .bullet-list__before {
+      background: linear-gradient(180deg, #FFE39C 0%, #FFBA9C 100%);
+    }
+    :nth-child(2) .bullet-list__before {
+      background:  linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    }
+    :nth-child(3) .bullet-list__before {
+      background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    }
+    :nth-child(4) .bullet-list__before {
+      background: linear-gradient(180deg, #919191 0%, #3D4975 100%);
+    }
+
+  }
+}
+.room-details__impression-div{
+  margin-top: 20px ;
+  display: flex;
+  flex-direction: row;
+}
+.room-details__impression{
+  float: right;
+
+}
+.room-details__information{
+  float: left;
+}
+.room-details__reviews-number{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.5);
+}
+
