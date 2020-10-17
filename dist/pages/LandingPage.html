@@ -1,4 +1,27 @@
-<!DOCTYPE html>
+
+<!--include \..\..\block\full-logo\full-logo-->
+<!--include \..\..\block\header-panel\header-panel-->
+<!--include \..\..\block\button-border\button-border-->
+<!--include \..\..\block\button\button-->
+<!--include \..\..\block\title\title-->
+<!--include \..\..\block\logo\color-logo-->
+<!--include \..\..\block\checkbox-list\checkbox-list-->
+<!--mixin date-dropdown(id)
+.date-dropdown
+    input(class="date-dropdown__input date-dropdown__input_"+id data-toggle="datepicker_"+id id="date-field1_"+id type="text" placeholder="ДД.ММ.ГГГГ",)
+    span(class = "date-dropdown__span-icons date-dropdown__span-icons_"+id)="keyboard_arrow_down"
+
+
+-->
+<!--include \..\..\block\social-network-icons\social-network-icons-->
+<!--include \..\..\block\full-logo\full-logo-->
+<!--include \..\..\block\header-panel\header-panel-->
+<!--include \..\..\block\button-border\button-border-->
+<!--include \..\..\block\button\button-->
+<!--include \..\..\block\textfield\textfield-->
+<!--include \..\..\block\title\title-->
+<!--include \..\..\block\logo\color-logo-->
+<!--include \..\..\block\checkbox-list\checkbox-list--><!DOCTYPE html>
 <html>
   <head>
     <title>Website Pages</title>
@@ -35,29 +58,55 @@
         </div>
       </div>
       <div class="landingPage__enter_div">
-        <div class="landingPage__enter_div_login-form">
-          <div class="login-form">
-            <div class="login-form__head">Войти</div>
-            <div class="login-form__email">
-              <div class="textfield">
-                <input class="textfield__input textfield__input" type="text" id="login_form-email" placeholder="Email">
-                <label class="textfield__label" for="login_form-email"></label>
+        <div class="landingPage__enter_div_search-form">
+          <div class="search-form">
+            <div class="search-form__head">Найдём номера под ваши пожелания</div>
+            <div class="search-form__date-dropdowns">
+              <div class="search-form__arrival">
+                <div class="search-form__arrival-content">Прибытие</div>
+                <div class="search-form__date-dropdown-arrival">
+                  <div class="date-dropdown">
+                    <input class="date-dropdown__input" data-toggle="datepicker_" id="date-field_dd1" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons" id="spandd1">keyboard_arrow_down</span>
+                  </div>
+                </div>
+              </div>
+              <div class="search-form__departure">
+                <div class="search-form__departure-content">Выезд</div>
+                <div class="search-form__date-dropdown-departure">
+                  <div class="date-dropdown">
+                    <input class="date-dropdown__input" data-toggle="datepicker_" id="date-field_dd2" type="text" placeholder="ДД.ММ.ГГГГ"><span class="date-dropdown__span-icons" id="spandd2">keyboard_arrow_down</span>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="login-form__password">
-              <div class="textfield">
-                <input class="textfield__input textfield__input" type="password" id="login_form-password" placeholder="Пароль">
-                <label class="textfield__label" for="login_form-password"></label>
+            <div class="search-form__guests">Гости</div>
+            <div class="search-form__dropdown-guests">
+              <div class="default">
+                <div class="iqdropdown">
+                  <p class="iqdropdown-selection" data-seletion-text="item" data-text-plural="items"></p><span class="iqdropdown__span-icons" id="span">keyboard_arrow_down</span>
+                  <div class="iqdropdown-menu" id="menu_6">
+                    <div class="iqdropdown-menu-option" data-id="item1">
+                      <div>
+                        <div class="iqdropdown-item">взрослые</div>
+                      </div>
+                    </div>
+                    <div class="iqdropdown-menu-option" data-id="item2">
+                      <div>
+                        <div class="iqdropdown-item">дети</div>
+                      </div>
+                    </div>
+                    <div class="iqdropdown-menu-option" data-id="item3">
+                      <div>
+                        <div class="iqdropdown-item">младенцы</div>
+                      </div>
+                    </div>
+                    <div class="iqdropdown-menu-buttons"><span class="iqdropdown-clear" id="clear_6">Очистить</span><span class="iqdropdown-apply">Применить</span></div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="login-form__enter-button">
-              <button class="button-arrow"><span class="button-arrow__span_content">Войти</span><span class="button-arrow__span_icon">arrow_forward</span></button>
-            </div>
-            <div class="login-form__create-account-div">
-              <div class="login-form__question-enter">Нет аккаунта на Toxin?</div>
-              <div class="login-form__registration-button">
-                <button class="button-border button-opacity"><span class="button-border__span">Создать</span></button>
-              </div>
+            <div class="search-form__button-arrow-search">
+              <button class="button-arrow"><span class="button-arrow__span_content">подобрать номер</span><span class="button-arrow__span_icon">arrow_forward</span></button>
             </div>
           </div>
         </div>
